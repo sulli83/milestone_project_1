@@ -1,0 +1,93 @@
+.navbar,
+.navbar-inverse {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  min-height: 80px;
+}
+
+.nav li {
+  display: inline;
+  color: white;
+}
+
+.dropdown-toggle{
+  background-color:#3e432e;
+  border-color:#3e432e;
+  color:#a7d129;
+  font-size:100px;
+}
+
+.dropdown-toggle:hover{
+  background-color:#3e432e;
+  border-color:#3e432e;
+  color:;:relative;
+  left:100px;
+  position
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 1.7em;
+  font-weight: 300;
+  padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+  background-color: #444444;
+  transition: 0.7s all linear;
+  height: 100%;
+}
+
+.d-block{
+    width:500px;
+}
+
+.navbar{
+    height:200px;
+    background-color:#3e432e;
+    font-family: 'Fjalla One', sans-serif;
+    
+
+}
+
+#portfolio_nav{
+    display:flex;
+    align-items:center;
+}
+
+#logo{
+height:150px;  
+width:300px;
+}
+
+.navbar h2{
+    margin-top:15px;
+    margin-left:325px;
+    color:#a7d129;
+    width:200px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  color:#a7d129;
+  text-align: center;
+  height:100px;
+  background-color:#3e432e;
+  font-family: 'Fjalla One', sans-serif;
+  
+}
+
+#burger{
+  background-color:green;
+  color:blue;
+  width:50px;
+  height:50px;
+  margin:0 auto;
+}
