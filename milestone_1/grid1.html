@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grid 1</title>
+        <style>
+            .wrapper{
+                display:grid;
+                grid-template-columns:60% 15% 15%;
+                grid-auto-rows:minmax(100px,auto);
+                grid-gap:1em;
+            }
+        
+            .wrapper > div {
+                background:#eee;
+                padding:1em;
+            }
+            .wrapper >  div:nth-child(odd){
+                background:#ddd;
+            }
+            
+            .nested{
+                display:grid;
+                grid-template-rows:repeat(3, 1fr);
+                grid-row-gap:10px
+             
+        
+            }
+            
+            .nested > div{
+                border: #333 1px solid;
+            }
+        </style>
+        
+    </head>
+    <body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro laborum, sint sunt est officia suscipit eligendi perferendis necessitatibus totam quos nesciunt hic quis repellendus aperiam eveniet amet iusto minus, et at saepe! Ea adipisci illo asperiores facilis quos quo, totam libero laudantium. Dicta, quam ducimus, facere modi, ipsa ipsam suscipit veritatis illum totam iste voluptate, dolorem obcaecati repellat eius ipsum!
+        </div>
+        
+        <div class = "nested">
+         <div>Lorem ipsum dolor quid qui quaerat.
+         </div>
+         <div>Lorem ipsum dolor ntore rerum odit.
+        </div>
+        <div>Loreuptatum vitae ab hic iste animi.
+        </div>
+        <!--end of nested div-->
+        </div>
+        
+    </div>
+    </body>
+</html>

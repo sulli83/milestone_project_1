@@ -1,0 +1,26 @@
+
+.container{
+ display:grid;
+ grid-template-columns:10% 50% 15% 15% 10%;
+ grid-template-rows:5% 40% 10% 40% 5%;
+ color:#616f39;
+ font-family:"Comfortaa";
+font-size:20px;
+line-height:30px;
+background-color:white;
+width:60%;
+margin-top:5%;
+margin-bottom:5%;
+margin-left:20%;    
+}
+
+.btn{
+    color:#a7d129;
+    background-color:#3e432e;
+    
+}
+.main_text{
+    display:flex;
+    flex-direction:column;
+}
+
