@@ -52,9 +52,13 @@ width:300px;
   
 }
 
+.gylphicon-menu-hamburger:hover{
+  color:#3e432e;
+}
 
 
-.clicked {
+
+.dropdown-toggle_visited {
   background-color:#3e432e;
   border-color:#3e432e;
 }
@@ -114,6 +118,43 @@ width:300px;
 
 }
 
+#section_1{
+  background-color:pink;
+  min-height:200px;
+}
+
+.box{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+}
+
+.inner_block{
+  padding:20px;
+  color:#616f39;
+  background-color:#eee;
+}
+
+.text_block h2{
+  background-color:#a7d129;
+  color:black;
+  positioning:relative;
+  left:30%;
+  width:70&;
+}
+
+.thumb-img {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position:relative;
+  left:30%;
+}
+
+.text_block{
+  padding-top:1em;
+}
+
 .glyphicon-chevron{
   color:black;
 }
@@ -164,7 +205,7 @@ width:300px;
 }
 
 /*end of footer elements */
-
+/*------------------------------------------------------------------------*/
 @media(max-width:801px){  
 
    #logo{
@@ -180,6 +221,7 @@ width:300px;
   left:-100px;
   top:-10px;
   font-size:1.5em;
+  padding-left:1em;
 
 }
 
@@ -202,6 +244,16 @@ width:300px;
  
 }
 
+.box{
+  display:grid;
+  grid-template-columns:1fr
+  grid-template-rows:1fr 1fr 1fr;
+}
+
+#address{
+  display:none;
+}
+
 
 .fab{
   font-size:30px;
@@ -211,6 +263,7 @@ width:300px;
   font-size:30px;
 }
 }
+/*---------------------------------------------------------------------*/
 @media (max-width:600px){
   
   .navbar{
@@ -240,6 +293,8 @@ width:300px;
   
   
 }
+
+/*---------------------------------------------------------------------------------------*/
 @media (max-width:480px)  { /* smartphones, Android phones, landscape iPhone */ 
   
  
@@ -258,7 +313,7 @@ width:300px;
   }
   
     
-
+/*-----------------------------------------------------------------------------------------------*/
 @media (max-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   .glyphicon-menu-hamburger{
     position:absolute;
@@ -276,7 +331,7 @@ width:300px;
   }
  
 }
-
+/*------------------------------------------------------------------------------------------------*/
 @media(max-width:250px){
   .logo_text{
   display:none;

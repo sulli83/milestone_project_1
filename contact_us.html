@@ -14,7 +14,7 @@ crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/style_about.css">
-<link rel="stylesheet" href="/css/style/contact.css">
+<link rel="stylesheet" href="/css/contact.css">
     </head>
     <body>
 
@@ -49,61 +49,21 @@ crossorigin="anonymous">
   <!--closing nav-->
   </nav>
   
-<div class= "container fluid">
-<div class= "contact">
-<!--contact us-->
-<h1>
-Contact Us</h1><br>
-<h1>
-Contact us to organise your first free consultation</h1>
-<br>
-<h1>
-Email: hello@thinkoutside.ie
-</h1>
-<br>
-<h1>
-Telephone: (086) 345 1763
-</h1>
-<!--contact us body finished-->
+ <!--question form--> 
+<div class="form-box">
+  <h3>Feel free to contact us for a free consulation <br> or with regards any queries you may have??</h3>
+ 
+      <label for="name">Name</label>
+      <input id="name" type="text" name="Name" placeholder="Type your name here">
+    
+      <label for="email">Email</label>
+      <input id="email" type="email" name="Email" placeholder="Enter Email address.">
+    
+      <label for="message">Message</label>
+      <textarea id="message" name="Message" class="message_box" placeholder="Enter message"></textarea>
+    <input class="button-primary" type="submit" value="Submit" />
+  </form>
 </div>
-<!--closing container fluid-->
-</div>
-<!--contact form-->
-<div class= "container contact_container">
-<form id="contact" action="/contact" method="post">
-<div class="two-thirds column" id="main">
-  <fieldset>
-    <legend>
-    Contact us online for a response.
-    </legend>
-    
-    <!--seperate form simply looking for name  and e mail address-->
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" /><!--was formerly username-->
-    <label for="email">Email:</label>
-    <input type="text" id="email" name="email" /><!--email adress-->
-    
-    <!--select boxes form-->
-    <!--services = equipment type-->
-    <label for="services">Service required:</label>
-    <select id="services" name="services">
-    <option value="choose">Please select service which is required</option>
-    <option value="which_service">Service</option>
-    
-    <select></br>
-    <!--end of select boxes <form-->>
-    
-    
-    <!--submit button for both elements-->
-    <input type="submit" value"submit" id="submit" />
-  
-  </fieldset>
-</div>  
-  
-</form>
-<!--container-->
-</div>
-<!--end of form-->
 
 <!--footer-->
 <div class="footer">

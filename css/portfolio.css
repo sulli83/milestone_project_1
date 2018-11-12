@@ -1,13 +1,17 @@
-.fluid_image{
-    margins:20px
+
+.img-fluid{
+    margin:1em;
+    max-width:550px;
+    height:auto;
+    
 }
 
 .heading{
-    background-color:#a7d129;
-    color:white;
+    background-color:#ddd;
+    color:#a7d129;
 }
 
-
-#img_woodbrooke{
-    width:100%;
+.my-4{
+    background-color:#ddd;
 }
+

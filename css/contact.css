@@ -1,4 +1,34 @@
-.contact_container{
-    width:80%;
-    background-color:green;
+body {
+  background: #f7f7f7;
+}
+
+.form-box {
+  width:90%;
+  margin: auto;
+  padding: 50px;
+  background: #ddd;
+  color:#616f39;
+  border: 10px solid #f2f2f2;
+  font-family:"Comfortaa", sans-serif;
+}
+
+h3{
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+}
+
+.message_box{
+    min-height:200px;
+}
+
+.button-primary{
+    max-width:80px;
+    positioning:relative
+    left:50%;
+    align-items:center;
+    background-color:#a7d129;
+    color:black;
 }
