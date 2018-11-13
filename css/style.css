@@ -126,25 +126,32 @@ width:300px;
 .box{
   display:grid;
   grid-template-columns:1fr 1fr 1fr;
+  
 }
 
 .inner_block{
   padding:20px;
   color:#616f39;
   background-color:#eee;
+  
+}
+
+.text_block{
+    font-family:"Comfortaa", sans-serif;
 }
 
 .text_block h2{
   background-color:#a7d129;
   color:black;
   positioning:relative;
-  left:30%;
-  width:70&;
+  text-align:center;
+  width:auto;
+
 }
 
 .thumb-img {
   display: inline;
-  width: 100px;
+  width:100px;
   height: 100px;
   border-radius: 50%;
   position:relative;
