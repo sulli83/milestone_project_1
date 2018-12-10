@@ -13,31 +13,35 @@ crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
 <link rel="stylesheet" href="/css/style.css">
-<link rel="stylesheet" href="/css/style_about.css">
 <link rel="stylesheet" href="/css/contact.css">
+<link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+
     </head>
     <body>
-
-<!--Navbar-->
-
-<nav class="navbar navbar-default">
-      <a class="navbar-brand" href="www.thinkoutside.ie">
-        <img alt="Brand" src="/images/logo.png" id= "logo">
+    <!--start of Nav-->
+    <nav class=" navbar navbar-default">
+    <div class = "logo1">
+         <a class="navbar-brand" href="/index.html" id ="logo">
+        <span class="short-heading">Landscaping</span>
+        <img alt="Brand" src="/images/logo.png">
       </a>
-  
-  <h2>
-  LANDSCAPING -<br>DESIGN<br>BUILD<br>MAINTAIN
-  </h2>
+      </div>
+  <div class="logo_text">
+  <span class="full-heading">Landscaping-<br>Design<br>Construct<br>Maintain</span>
+
+  </div>
   
        <!--burger dropdown menu-->
+       
   <div class="dropdown">
   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     
     <span class="glyphicon glyphicon-menu-hamburger"></span>
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li class="dropdown_item"><a href="/index.html">Home</a></li>
-    <li class="dropdown_item"><a href="/About_Us.html">About Us</a></li>
+    <li class= "dropdown_menu"><a href= "/index.html">Home</a></li>
+    <li class="dropdown_item"><a href="/about_Us.html">About Us</a></li>
     <li class="dropdown_item"><a href="/services.html">Services</a></li>
     <li class="dropdown_item"><a href="/portfolio.html">Portfolio</a></li>
     <li class="dropdown_item"><a href="/contact_us.html">Contact Us</a></li>
@@ -48,8 +52,10 @@ crossorigin="anonymous">
 
   <!--closing nav-->
   </nav>
+
   
  <!--question form--> 
+<section>
 <div class="form-box">
   <h3>Feel free to contact us for a free consulation <br> or with regards any queries you may have??</h3>
  
@@ -64,6 +70,7 @@ crossorigin="anonymous">
     <input class="button-primary" type="submit" value="Submit" />
   </form>
 </div>
+</section>
 
 <!--footer-->
 <div class="footer">

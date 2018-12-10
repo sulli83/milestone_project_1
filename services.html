@@ -14,29 +14,34 @@ crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/services.css">
+<link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+
     </head>
     <body>
-
-<!--Navbar-->
-
-<nav class="navbar navbar-default">
-      <a class="navbar-brand" href="www.thinkoutside.ie">
-        <img alt="Brand" src="/images/logo.png" id= "logo">
+    <!--start of Nav-->
+    <nav class=" navbar navbar-default">
+    <div class = "logo1">
+         <a class="navbar-brand" href="/index.html" id ="logo">
+        <span class="short-heading">Landscaping</span>
+        <img alt="Brand" src="/images/logo.png">
       </a>
-  
-  <h2>
-  LANDSCAPING -<br>DESIGN<br>BUILD<br>MAINTAIN
-  </h2>
+      </div>
+  <div class="logo_text">
+  <span class="full-heading">Landscaping-<br>Design<br>Construct<br>Maintain</span>
+
+  </div>
   
        <!--burger dropdown menu-->
+       
   <div class="dropdown">
   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     
     <span class="glyphicon glyphicon-menu-hamburger"></span>
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-     <li class="dropdown_item"><a href="/index.html">Home</a></li>
-    <li class="dropdown_item"><a href="/About_Us.html">About Us</a></li>
+    <li class= "dropdown_menu"><a href= "/index.html">Home</a></li>
+    <li class="dropdown_item"><a href="/about_Us.html">About Us</a></li>
     <li class="dropdown_item"><a href="/services.html">Services</a></li>
     <li class="dropdown_item"><a href="/portfolio.html">Portfolio</a></li>
     <li class="dropdown_item"><a href="/contact_us.html">Contact Us</a></li>
@@ -47,11 +52,17 @@ crossorigin="anonymous">
 
   <!--closing nav-->
   </nav>
+
   
   <!--main body of website text-->
- <div class="container_serv">
-    <div class = "wrapper_serv">
-     <div class = "para_1 main_text">
+ <!--<div class="container_serv">
+     
+     
+     <!--Consultation section-->
+<div class="container">    
+<div class= "row">
+<div class="col-sm-6">
+<!--end of col 1 first text-->
 <h1><st>
 Consultation</st></h1>
 <p>
@@ -61,22 +72,23 @@ opportunity to view other projects from the Think Outside portfolio and elsewher
 (usually verbal) follows. The proposal sets out the fee payable to develop a Concept Plan- this fee is offset 
 against the total cost should the client proceed.
 </p>
-<!--end of para_1 main_text -->
 </div>
-<div class = "para_one_img">
-<img src="/images/t_outside/IMG_9721.JPG" id="img_rathmines" alt="garden image Rathmines">
-<!-- close para_one_img-->
+<div class="col-md-5 col-sm-10 img_block_serv">
+<div class="wrapper">
+<!--end of col 2 first image-->
+<img src="/images/t_outside/IMG_9721.JPG" class="serv_imgs img-responsive" id="img_rathmines" alt="garden image Rathmines">
+<!--end of wrapper-->
 </div>
-<!--close wrapper-->
 </div>
-<!--new block, reverse block-->
-  <div class = "wrapper_serv serv_1">
-     
-<div class = "para_one_img">
-<img src="/images/t_outside/IMG_9721.JPG" id="img_rathmines" alt="garden image Rathmines">
-<!-- close para_one_img-->
+<!--end of row-->
 </div>
- <div class = "para_1 main_text">
+<div class="row">
+<div class="col-md-5 col-sm-10 img_block_serv">
+<!--end of col 2 first image-->
+<img src="/images/t_outside/IMG_9721.JPG" class="serv_imgs img-responsive" id="img_rathmines" alt="garden image Rathmines">
+<!--end of col 1 second image=-->
+</div>
+<div class="col-sm-6">
 <h1><st>
 Garden Design</st></h1>
 <h3>
@@ -85,17 +97,18 @@ Concept Plan
 
 <p> This stage includes an overall plan of the garden to scale, with images of key design elements plus samples of materials and plant species to be used. This plan provides clients with a clear visual image of the new garden and includes a preliminary budget.
 </p>
+<h3>
+Detailed Plan and Quotation
+</h3>
 <p>
-Detailed Plan and Quotation: Following approval of the Concept Plan, detailed plans are developed for the structural elements, stonework, woodwork, planting, lighting, etc. and a final Construction Quote is prepared for completion of the project.
+Following approval of the Concept Plan, detailed plans are developed for the structural elements, stonework, woodwork, planting, lighting, etc. and a final Construction Quote is prepared for completion of the project.
 </p>
-
-<!--end of para_1 main_text -->
+<!--end of col 2 second text -->
 </div>
-<!--close wrapper-->
-<!--end of reverse block-->
+<!--of second row-->
 </div>
- <div class = "wrapper_serv">
-     <div class = "para_1 main_text">
+<div class="row">
+<div class="col-sm-6">
 <h1><st>
 Construction</st></h1>
 <p>
@@ -106,68 +119,34 @@ requirements of a garden. This experience ensures the successful completion of
 the project within the budget and timescale.
 <br>
 </p>
-<!--end of para_1 main_text -->
+<!-- end of col 1 third text-->
 </div>
-<div class = "para_one_img serv_2">
-<img src="/images/t_outside/IMG_9721.JPG" id="img_rathmines" alt="garden image Rathmines">
-<!-- close para_one_img-->
+<div class="col-md-5 col-sm-10">
+<img src="/images/t_outside/IMG_9721.JPG" class="serv_imgs img-responsive" id="img_rathmines" alt="garden image Rathmines">
+<!--end of col 2 third image-->
 </div>
-<!--close wrapper-->
+<!-- end of third row-->
 </div>
-<!--
-<div class = "para_2 main_text">
-
-Construction:</st></h1>
-<!--closing of header_3-->
-<!--</div>
-<div class = "para_4 main_text">As can be seen from our portfolio Think Outside has experience and confidence with all forms of landscape construction, familiarity with a wide variety of construction materials and an understanding of the horticultural requirements of a garden. This experience ensures the successful completion of the project within the budget and timescale.
-<br>
-<img src="/images/t_outside/IMG_9721.JPG" id="img_rathmines" alt="garden image Rathmines">
-<!--close of para_4--->
-<!--</div>
-<!--closeof header_3-->
-<!--</div>
-<div class "header_4">
+<div class="row">
+<!--end of third row-->
+<div class="col-md-5 col-sm-10">
+<img src="/images/t_outside/IMG_9721.JPG" class="serv_imgs img_responsive" id="img_rathmines" alt="garden image Rathmines">
+<!--end of col 1 fourth image-->
+</div>
+<div class="col-sm-6">
 <h1><st>
 Maintenance</st></h1>
-<br>
-<!--close of header_4 -->
-<!--<div class = "para_5 main_text">
-Think Outside offers a professional maintenance service, for its own projects and for others, to ensure the highest standard of care for your garden. Following an on-site consultation Think Outside will develop an appropriate maintenance programme. Maintenance frequency can be agreed to suit the circumstances.
-<img src="/images/t_outside/IMG_9721.JPG" id="img_rathmines" alt="garden image Rathmines">
-<!--closing of para_5-->
-<!--</div>
-</div>
-<!--closing container services_wrapper -->
-</div>
-<!--Maintenance Block-->
- <div class = "wrapper_serv serv_1 serv_3">
-     
-<div class = "para_one_img">
-<img src="/images/t_outside/IMG_9721.JPG" id="img_rathmines" alt="garden image Rathmines">
-<!-- close para_one_img-->
-</div>
- <div class = "para_1 main_text">
-<h1><st>
-Maintenance</st></h1>
-
-
-
-<p> This stage includes an overall plan of the garden to scale, with images of key design elements plus samples of materials and plant species to be used. This plan provides clients with a clear visual image of the new garden and includes a preliminary budget.
-</p>
 <p>
-Detailed Plan and Quotation: Following approval of the Concept Plan, detailed plans are developed for the structural elements, stonework, woodwork, planting, lighting, etc. and a final Construction Quote is prepared for completion of the project.
+Think Outside offers a professional maintenance service, for its own projects and for others, to ensure the highest standard of care for your garden. 
+Following an on-site consultation Think Outside will develop an appropriate maintenance programme. 
+Maintenance frequency can be agreed to suit the circumstances.
 </p>
-
-<!--end of para_1 main_text -->
+<!--end of col 1 fourth text-->
 </div>
-<!--close wrapper-->
-<!--end of reverse block-->
 </div>
-<!--closing container services_wrapper -->
+<!--end of container-->
 </div>
-
-
+<!--end of services block section-->
 <!--footer-->
 
 <div class="footer">

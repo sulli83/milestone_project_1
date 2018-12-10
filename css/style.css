@@ -1,36 +1,61 @@
 /*css for NAVBAR */
-.navbar,
-.navbar-inverse {
-  border-radius: 0;
-  border: none;
-  margin-bottom: 0;
-  min-height: 80px;
-  width:100%;
+body{
+  background-color:#FDFDC3/*feffdf*/
+  ;
 }
 
-.nav li {
-  display: inline;
-  color: white;
-}
 
-.navbar h2{
-    position:relative;
-    left:30px;
-    top:10px;
-    margin-left:325px;
+.full-heading{
+    font-size:1.75em;
     color:#a7d129;
     width:200px;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    margin-right: -60%;
+    z-index: 1;
 }
+
+
+.short-heading{
+  font-size:1.75em;
+    color:#a7d129;
+    width:200px;
+    position: absolute;
+    top: 75%;
+    left: 8%;
+    margin-right: -2%;
+    z-index: 1;
+}
+
+
+/* Hide short text by default (resolution > 480px)*/
+.short-heading { display: none; }
+
+/* When resolution <= 480px, hide short text and show full text*/
+@media (max-width: 480px) {
+    .short-heading { display: inline-block; }
+    .full-heading { display: none; }
+}
+  
+
 
 
 #logo{
-height:150px;  
-width:300px;
+height:100px;  
+width:200px;
+position:absolute;
+left:5%;
+right:-95%;
+top:-10%;
+z-index: 1;
+
 }
 
 
 /* end of css for navbar */
 /* css for dropdown element*/
+
 .dropdown{
   position:absolute;
   top:40px;
@@ -42,31 +67,33 @@ width:300px;
   background-color:#3e432e;
   border-color:#3e432e;
   color:#a7d129;
-  font-size:100px;
+  font-size:50px;
 
 }
 
 .dropdown-toggle:hover{
-  background-color:#3e432e;
+  background-color:
+  #3e432e;
   border-color:#3e432e;
+  color:#a7d129;
   
 }
 
-.gylphicon-menu-hamburger:hover{
-  color:#3e432e;
-}
-
-
-
-.dropdown-toggle_visited {
-  background-color:#3e432e;
+.dropdown-toggle:visited {background-color:#3e432e;
   border-color:#3e432e;
-}
-
-.dropdown-toggle:visited{
-    background-color:#3e432e;
+  color:#a7d129;}
+.dropdown-toggle:focus {background-color:#3e432e;
   border-color:#3e432e;
-}
+  color:#a7d129;}
+.dropdown-toggle:hover {background-color:#3e432e;
+  border-color:#3e432e;
+  color:#a7d129;}
+.dropdown-toggle:active {background-color:#3e432e;
+  border-color:#3e432e;
+  color:#a7d129;}
+
+
+
 
 /*end of css for dropdown */
 
@@ -75,11 +102,15 @@ width:300px;
 }
 
 .navbar{
-    height:220px;
+    height:170px;
     background-color:#3e432e;
     font-family: 'Fjalla One', sans-serif;
-    padding:20px;
-    width:100%;
+    /*padding:20px;*/
+    width:105%;
+    margin-left:auto;
+    margin-right:auto;
+    border-width:20px;
+    border-color:#3e432e;
 
 
 }
@@ -90,8 +121,9 @@ width:300px;
 
 .dropdown-menu{
   background-color:#a7d129;
-  color:#a7d129;
+  color:/*#a7d129;*/white;
   position:relative;
+  right:50%;
   }
   
 .dropdown-menu:hover{
@@ -109,54 +141,23 @@ width:300px;
 
 
 /* carousel css*/
+
+#carousel{
+  position:relative;
+  width:100%;
+  top:-20px;
+  margin-left:2.5%;
+  border-radius:5%;
+
+}
 .carousel-caption{
  background-color:rgba(255, 255, 255, 0.3);
- margin:5px;
  color:black;
  font-family:"Comfortaa";
  font-weight:bold;
 
 }
 
-#section_1{
-  background-color:pink;
-  min-height:200px;
-}
-
-.box{
-  display:grid;
-  grid-template-columns:1fr 1fr 1fr;
-  
-}
-
-.inner_block{
-  padding:20px;
-  color:#616f39;
-  background-color:#eee;
-  
-}
-
-.text_block{
-    font-family:"Comfortaa", sans-serif;
-}
-
-.text_block h2{
-  background-color:#a7d129;
-  color:black;
-  positioning:relative;
-  text-align:center;
-  width:auto;
-
-}
-
-.thumb-img {
-  display: inline;
-  width:100px;
-  height: 100px;
-  border-radius: 50%;
-  position:relative;
-  left:30%;
-}
 
 .text_block{
   padding-top:1em;
@@ -167,14 +168,102 @@ width:300px;
 }
 
 
-.car_image{
+.car_inner{
+  height:auto;
+  width:90%;
+  display:block;
+  margin-left:5%;
+  margin-right:5%;
 
-  width:100%;
-  margin: auto;
+}
+
+.car_image{
+  border-radius:5%;
+}
+
+h1{
+    background-color:#616f39;
+    border-radius:20px;
+    padding-left:30px;
+    color:white;
+    width:auto;
+}
+
+h3{
+    border-radius:20px;
+    padding-left:30px;
+    background-color:#a7d129;
+}
+
+/*end of carousel */
+
+
+/*styling of construction, maintainance, design emblems */
+#section_1{
+  min-height:200px;
+  margin-left:20px;
+  background-color:#FDFDC3;
+  margin-left:3%;
+}
+
+.box{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin:1.5em;
+  background-color:/*#feffdf*/
+  #FDFDC3;
+  
+  
 }
 
 
-/*end of carousel */
+.inner_block{
+  padding-top:2%;
+  color:#616f39;
+  background-color:#eee;
+  min-height:380px;
+  min-width:250px;
+  border-radius:5%;
+  margin-bottom:5%;
+  
+}
+
+.text_block{
+    font-family:"Comfortaa", sans-serif;
+    padding:0.5em;
+    
+}
+
+.text_block h2{
+  font-size:1.5em;
+  background-color:#a7d129;
+  color:black;
+  positioning:relative;
+  text-align:center;
+  border-radius:5%;
+ 
+
+}
+
+.heading_block{
+  width:90%;
+  
+}
+
+.thumb-img {
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/*end of section block styling */
 
 
 /*footer and related items */
@@ -189,6 +278,7 @@ width:300px;
   color:#a7d129;
   text-align: center;
   height:100px;
+  width:105%;
   background-color:#3e432e;
   font-family: 'Fjalla One', sans-serif;
   padding:20px;
@@ -212,37 +302,18 @@ width:300px;
 }
 
 /*end of footer elements */
-/*------------------------------------------------------------------------*/
+
+@media(max-width:1000px){
+
+#carousel{
+  margin:0;
+  }  
+.section_1{
+  margin-left:0;
+}
+}
 @media(max-width:801px){  
 
-   #logo{
-      position:absolute;
-      left:-30px;
-      top:10px;
-  
-    }
-    
-
-.navbar h2{
-  position:relative;
-  left:-100px;
-  top:-10px;
-  font-size:1.5em;
-  padding-left:1em;
-
-}
-
-
-  
-.navbar{
-  height:170px;
-}
-
-  .glyphicon-menu-hamburger{
-    font-size:50px;
-    position:absolute;
-    bottom:40px;
-  }
 
   .dropdown{
   position:absolute;
@@ -252,9 +323,16 @@ width:300px;
 }
 
 .box{
-  display:grid;
-  grid-template-columns:1fr
-  grid-template-rows:1fr 1fr 1fr;
+  flex-direction:column;
+  align-items:center;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.inner_block{
+  margin:3%;
 }
 
 #address{
@@ -269,27 +347,23 @@ width:300px;
 .fas{
   font-size:30px;
 }
+
 }
 /*---------------------------------------------------------------------*/
 @media (max-width:600px){
   
-  .navbar{
-    height:130px;
-  }
+
   .carousel-caption{
     display:none;
   }
   
-  #logo{
-    height:70px;
-    width:140px;
-    position:absolute;
-    left:0px;
-    top:20px;
-  }
+ 
   .navbar h2{
+    font-size:1.5em;
     position:absolute;
-    left:-180px;
+    left:40%;
+    top:0%;
+    right:-60%;
    
   }
   
@@ -298,51 +372,71 @@ width:300px;
     background-color:grey;
   }
   
+  .glyphicon-menu-hamburger{
+    font-size:30px;
+  }
+  
+  
   
 }
 
 /*---------------------------------------------------------------------------------------*/
-@media (max-width:480px)  { /* smartphones, Android phones, landscape iPhone */ 
+@media (max-width: 480px)  { /* smartphones, Android phones, landscape iPhone */ 
   
- 
- 
-     .glyphicon-menu-hamburger{
-    font-size:30px;
+  #logo{
+    height:50%;
+    left:0;
+    right:100%;
+  }
+  
+  .short-heading{
     position:absolute;
-    left:250px;
-    top:30px;
-    
+    top:130px;
   }
   
-  }
   #address{
     display:none;
   }
-  
-    
-/*-----------------------------------------------------------------------------------------------*/
-@media (max-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-  .glyphicon-menu-hamburger{
-    position:absolute;
-    left:0px;
-    top:60px;
-    font-size:20px;
+  /*
+  .box{
+    display:flex;
+    flex-direction:column;
+    margin-left:35%;
+    margin-right:auto;
+    background-color:grey;
+  }
+    */
+  .inner_block{
+    width:80%;
+    max-width:400px;
+    margin:5%;
   }
   
-  .footer_items{
+  #name{
     display:none;
   }
   
-  .logo_text{
-    font-size:10px;
+  #phone{
+    display:none;
   }
+  
+  
+
+
+
+    
+/*-----------------------------------------------------------------------------------------------*/
+@media (max-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+ 
+  
+
+  
+
  
 }
 /*------------------------------------------------------------------------------------------------*/
 @media(max-width:250px){
-  .logo_text{
-  display:none;
-  }
+ 
 
 }
     

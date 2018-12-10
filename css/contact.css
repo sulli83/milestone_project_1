@@ -3,13 +3,19 @@ body {
 }
 
 .form-box {
-  width:90%;
+  width:80%;
+  max-width:800px;
   margin: auto;
   padding: 50px;
   background: #ddd;
   color:#616f39;
-  border: 10px solid #f2f2f2;
   font-family:"Comfortaa", sans-serif;
+  padding:40px;
+  
+}
+section{
+  padding-top:40px;
+  padding-bottom:40px;
 }
 
 h3{

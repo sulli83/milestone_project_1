@@ -3,55 +3,34 @@
 
 
 
-.container_block{
+.container{
 
-color:#ddd;
+color:#3e432e;
 font-family:"Comfortaa";
+font-size:1em;
+}
 
-font-size:20px;
-line-height:30px;
-background-color:white;
-margin-left:20px;
-margin-top:5%;
-margin-bottom:5%;
+h2{
+    background-color:#3e432e;
+    font-size:1.5em;
+    color:white;
+    padding-left:30px;
+    border-radius:20px;
 }
 
 .btn{
     color:#a7d129;
     background-color:#3e432e;
     }
-    
-     .wrapper_us{
-                display:grid;
-                grid-template-columns:45% 45%;
-                grid-auto-rows:minmax(100px,auto);
-                grid-gap:1em;
-            }
-        
-            .wrapper_us > div {
-                background:#eee;
-                padding:1em;
-            }
-            .wrapper_us >  div:nth-child(odd){
-                background:#ddd;
-            }
-            
-            
-            .nested > div{
-                border: #333 1px solid;
-            }
-  
 
-.nested{
-  background-color:white;
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  grid-template-rows:1fr 1fr 1fr;
-  grid-gap:1em;}
 
 .image_grid{
   max-width:300px;
   max-height:300px;}
+  
+.about_imgs{
+    margin:1em;
+}
 
         
        
