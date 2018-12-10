@@ -63,6 +63,10 @@ z-index: 1;
  
 }
 
+.dropdown_menu{
+  color:#a7d129;
+}
+
 .dropdown-toggle{
   background-color:#3e432e;
   border-color:#3e432e;
@@ -109,24 +113,15 @@ z-index: 1;
 }
 
 .dropdown-menu{
-  background-color:#a7d129;
-  color:/*#a7d129;*/white;
-  display:inline-block;
   position:absolute;
-  left:80%;
-  right:20%;
-  margin-right:5%;
-  max-width:50px;
-
-  }
-  
-.dropdown-menu:hover{
-  color:#a7d129;
+  left:-35px;
+  top:107px;
+  color:white;
+  background-color:#3e432e;
 }
 
-.dropdown_item{
-  color:white;
-  p
+.clicked{
+  background-color:#3e432e;
 }
 
 #portfolio_nav{
@@ -175,7 +170,7 @@ z-index: 1;
 .car_image{
   border-radius:5%;
 }
-
+/*
 h1{
     background-color:#616f39;
     border-radius:20px;
@@ -184,6 +179,10 @@ h1{
     width:auto;
 }
 
+h2{
+  background-color:#616f39;
+}
+*/
 h3{
     border-radius:20px;
     padding-left:30px;

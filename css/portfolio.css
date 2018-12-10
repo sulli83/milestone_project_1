@@ -23,3 +23,26 @@ background-color:#a7d129;
     
 }
 
+.btn:active{
+    background-color:white;
+    color:#3e432e;
+}
+
+h1{
+    background-color:#616f39;
+    border-radius:20px;
+    padding-left:30px;
+    font-size:2em;
+    color:white;
+    width:auto;
+}
+
+
+h3{
+  background-color:#a7d129;
+  color:#3e432e;
+  font-size:1.5em;
+  border-radius:20px;
+  padding-left:30px;   
+}
+
