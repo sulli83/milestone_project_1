@@ -92,30 +92,6 @@ z-index: 1;
 
 }
 
-.dropdown-menu{
-  background-color:#a7d129;
-
-}
-
-.dropdown-menu{
- color:pink; 
-}
-
-.dropdown_menu{
-  color:purple;
-}
-
-.dropdown_item{
-  color:orange;
-}
-
-
-
-
-
-
-
-
 
 /*end of css for dropdown */
 
@@ -145,8 +121,9 @@ z-index: 1;
   position:absolute;
   left:-35px;
   top:107px;
-  color:pink
-  background-color:#3e432e;
+  color:pink;
+  background-color:#a7d129;
+  padding-left:3%;
 }
 
 

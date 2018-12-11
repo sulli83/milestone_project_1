@@ -1,3 +1,7 @@
+body{
+    font-family:"Comfortaa", sans-serif;
+}
+
 .container{
     background-color:#FDFDC3;
 }
@@ -32,9 +36,18 @@ h1{
     background-color:#616f39;
     border-radius:20px;
     padding-left:30px;
-    font-size:2em;
+    font-size:1.5em;
     color:white;
     width:auto;
+    width:50%;
+}
+
+h2{
+    border-radius:20px;
+    padding-left:30px;
+    font-size:1.5em;
+    background-color:#a7d129;
+    width:50%;
 }
 
 
@@ -44,5 +57,8 @@ h3{
   font-size:1.5em;
   border-radius:20px;
   padding-left:30px;   
+  
 }
+
+
 

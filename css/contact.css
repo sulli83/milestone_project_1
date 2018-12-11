@@ -1,5 +1,5 @@
 body {
-  background: #f7f7f7;
+  background: #FDFDC3;
 }
 
 .form-box {
@@ -32,9 +32,15 @@ input, textarea {
 
 .button-primary{
     max-width:80px;
-    positioning:relative
+    position:relative;
     left:50%;
     align-items:center;
     background-color:#a7d129;
     color:black;
+}
+
+.contact_box_elements{
+    font-size:1.5em;
+    padding-top:.5em;
+    padding-bottom:.5em;
 }
