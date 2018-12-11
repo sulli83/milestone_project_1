@@ -1,13 +1,16 @@
-Your Project's Name
-Milestone Project 1
+Project Name:
+Milestone Project 1 - Website for Think Outside Landscapes.
 
 
 UX
 This is website designed for small landscaping company.
 
-The primary issue with the existing website was its lack of responsiveness.
+The primary issue with the companies existing website was its lack of responsiveness.
 
 The website has been designed to be very visually intense at the front end in particualar the landing page.
+
+Such as website aims to provide an insight into the workmanship of the client quickly and in a very strong visual manner.
+
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
@@ -18,7 +21,12 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 Features
 
-The pages using 
+The pages using
+HTML5
+CSS3
+JQuery
+Bootstrap
+
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 Existing Features

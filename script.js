@@ -1,4 +1,4 @@
-$('#dropdown-menu1').click(function(){
+$('#dropdownMenu1').click(function(){
   $(this).toggleClass('.clicked');
 });
 

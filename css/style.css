@@ -62,26 +62,55 @@ z-index: 1;
   padding-left:80%;
  
 }
+/*targetting burger icon*/
 
-.dropdown_menu{
+
+#dropdownMenu1{
+  background-color:transparent;
   color:#a7d129;
+}
+#dropDownMenu1:hover{
+  background-color:transparent;
+  border:transparent;
+}
+#dropdownMenu1:focus{
+  background-color:transparent;
+  border:transparent;
+}
+
+
+
+.dropdown_item{
+  color:pink;
 }
 
 .dropdown-toggle{
-  background-color:#3e432e;
-  border-color:#3e432e;
+  background-color:orange;
+  border-color:transparent;
   color:#a7d129;
   font-size:50px;
 
 }
 
-.dropdown-toggle:hover{
-  background-color:
-  #3e432e;
-  border-color:#3e432e;
-  color:#a7d129;
-  
+.dropdown-menu{
+  background-color:#a7d129;
+
 }
+
+.dropdown-menu{
+ color:pink; 
+}
+
+.dropdown_menu{
+  color:purple;
+}
+
+.dropdown_item{
+  color:orange;
+}
+
+
+
 
 
 
@@ -116,13 +145,11 @@ z-index: 1;
   position:absolute;
   left:-35px;
   top:107px;
-  color:white;
+  color:pink
   background-color:#3e432e;
 }
 
-.clicked{
-  background-color:#3e432e;
-}
+
 
 #portfolio_nav{
     display:flex;
@@ -188,6 +215,7 @@ h3{
     padding-left:30px;
     background-color:#a7d129;
 }
+
 
 /*end of carousel */
 
