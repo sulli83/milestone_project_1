@@ -59,7 +59,7 @@ z-index: 1;
 .dropdown{
   position:absolute;
   top:40px;
-  padding-left:80%;
+  padding-left:70%;
  
 }
 /*targetting burger icon*/
@@ -117,14 +117,31 @@ z-index: 1;
   font-size: 2em;
 }
 
+
+/*
+@media(min-width:900px){
+*/
 .dropdown-menu{
   position:absolute;
   left:-35px;
   top:107px;
-  color:pink;
+  
   background-color:#a7d129;
   padding-left:3%;
 }
+/*}
+
+*/
+@media(min-width:900px){
+  .dropdown-menu{
+    position:relative;
+    left:-40px;
+    top:23px;
+    background-color:#a7d129;
+  }
+}
+
+
 
 
 
@@ -136,25 +153,34 @@ z-index: 1;
 
 /* carousel css*/
 
-#carousel{
-  position:relative;
-  width:100%;
-  top:-20px;
-  margin-left:2.5%;
-  border-radius:5%;
+  #carousel{
+    margin-left:2.5%;
+    position:relative;
+    width:100%;
+    top:-20px;
+  }
+  
+  @media(min-width:1000px){
+    #carousel{
+      margin-left:2.5%;
+    }
+  }
 
-}
+
+
 .carousel-caption{
  background-color:rgba(255, 255, 255, 0.3);
  color:black;
- font-family:"Comfortaa";
+ font-family:'Fjalla One', sans-serif;;
  font-weight:bold;
-
+ 
 }
 
-
-.text_block{
-  padding-top:1em;
+.carousel-caption h2{
+  background-color:transparent;
+  color:black;
+  font-size:2em;
+  margin: 0 auto;
 }
 
 .glyphicon-chevron{
@@ -162,35 +188,39 @@ z-index: 1;
 }
 
 
-.car_inner{
-  height:auto;
-  width:90%;
-  display:block;
-  margin-left:5%;
-  margin-right:5%;
-
-}
 
 .car_image{
   border-radius:5%;
 }
-/*
+
 h1{
-    background-color:#616f39;
-    border-radius:20px;
-    padding-left:30px;
-    color:white;
-    width:auto;
+  padding-top:0.5%;
+  padding-bottom:0.5%;
+  font-size:1.5em;
+  background-color:#3e432e;
+  border-radius:20px;
+  padding-left:30px;
+  color:white;
+  width:auto;
 }
 
 h2{
-  background-color:#616f39;
+  padding-top:0.5%;
+  padding-bottom:0.5%;
+  border-radius:20px;
+  padding-left:30px;
+  font-size:1.5em;
+  width:50%;
+  background-color:#a7d129;
 }
-*/
+
 h3{
     border-radius:20px;
     padding-left:30px;
     background-color:#a7d129;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    font-size:1.5em;
 }
 
 
@@ -202,7 +232,6 @@ h3{
   min-height:200px;
   margin-left:20px;
   background-color:#FDFDC3;
-  margin-left:3%;
 }
 
 .box{
@@ -212,16 +241,15 @@ h3{
   margin:1.5em;
   background-color:/*#feffdf*/
   #FDFDC3;
-  
-  
 }
 
 
 .inner_block{
   padding-top:2%;
+  padding-bottom:5%;
   color:#616f39;
   background-color:#eee;
-  min-height:380px;
+  min-height:280px;
   min-width:250px;
   border-radius:5%;
   margin-bottom:5%;
@@ -238,17 +266,15 @@ h3{
   font-size:1.5em;
   background-color:#a7d129;
   color:black;
+  padding-left:0;
   positioning:relative;
   text-align:center;
   border-radius:5%;
+  width:100%;
  
 
 }
 
-.heading_block{
-  width:90%;
-  
-}
 
 .thumb-img {
   display: block; 
@@ -308,14 +334,23 @@ h3{
 
 @media(max-width:1000px){
 
-#carousel{
-  margin:0;
-  }  
+ 
 .section_1{
   margin-left:0;
 }
 }
-@media(max-width:801px){  
+@media(max-width:850px){
+ .box{
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-around;
+}
+.inner_block{
+  width:80%;
+}
+}
+
+@media(max-width:800px){  
 
 
   .dropdown{
@@ -323,15 +358,6 @@ h3{
   top:40px;
   padding-left:80%;
  
-}
-
-.box{
-  flex-direction:column;
-  align-items:center;
-  margin-top:20px;
-  margin-bottom:20px;
-  margin-left:5px;
-  margin-right:5px;
 }
 
 .inner_block{
@@ -354,9 +380,7 @@ h3{
 }
 /*---------------------------------------------------------------------*/
 @media (max-width:680px){
-.dropdown-menu{
-  
-}
+
 }
 @media (max-width:600px){
   

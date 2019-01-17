@@ -1,10 +1,22 @@
-body{
-    font-family:"Comfortaa", sans-serif;
-}
+
 
 .container{
-    background-color:#FDFDC3;
+    background-color:/*/FDC3;*/#ddd;
+    margin-bottom:5%;
+    font-family:"Comfortaa";
+    }
+    
+
+
+.row{
 }
+
+.main_text_port{
+    font-size:1em;
+    
+}
+
+
 
 
 .img-fluid{
@@ -31,33 +43,44 @@ background-color:#a7d129;
     background-color:white;
     color:#3e432e;
 }
-
+/*
 h1{
-    background-color:#616f39;
     border-radius:20px;
     padding-left:30px;
     font-size:1.5em;
     color:white;
     width:auto;
     width:50%;
+   
 }
 
 h2{
     border-radius:20px;
     padding-left:30px;
     font-size:1.5em;
-    background-color:#a7d129;
     width:50%;
+   
 }
 
 
 h3{
-  background-color:#a7d129;
   color:#3e432e;
   font-size:1.5em;
   border-radius:20px;
-  padding-left:30px;   
+  padding-left:30px; 
+
   
+}
+*/
+
+.contact_box_elements{
+    font-size:1.5em;
+    padding-top:1.5em;
+    padding-bottom:1em;
+}
+
+a{color:white;
+  padding:0.3em;
 }
 
 

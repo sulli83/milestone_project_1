@@ -4,10 +4,10 @@
     font-family:"Comfortaa", sans-serif;
     font-size:1em;
 }
-
+/*
 h1{
     font-size:1.5em;
-    background-color:#616f39;
+    background-color:#3e432e;
     border-radius:20px;
     padding-left:30px;
     color:white;
@@ -20,7 +20,7 @@ h3{
     padding-left:30px;
     background-color:#a7d129;
 }
-
+*/
 .wrapper_serv{
     display:flex;
     flex-direction:column;
