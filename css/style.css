@@ -118,28 +118,13 @@ z-index: 1;
 }
 
 
-/*
-@media(min-width:900px){
-*/
-.dropdown-menu{
-  position:absolute;
-  left:-35px;
-  top:107px;
-  
-  background-color:#a7d129;
-  padding-left:3%;
-}
-/*}
-
-*/
-@media(min-width:900px){
   .dropdown-menu{
     position:relative;
     left:-40px;
     top:23px;
     background-color:#a7d129;
   }
-}
+
 
 
 
@@ -171,7 +156,7 @@ z-index: 1;
 .carousel-caption{
  background-color:rgba(255, 255, 255, 0.3);
  color:black;
- font-family:'Fjalla One', sans-serif;;
+ font-family:'Comfortaa', sans-serif;;
  font-weight:bold;
  
 }
@@ -179,7 +164,7 @@ z-index: 1;
 .carousel-caption h2{
   background-color:transparent;
   color:black;
-  font-size:2em;
+  font-size:1.5em;
   margin: 0 auto;
 }
 
