@@ -32,7 +32,7 @@ body{
 /* Hide short text by default (resolution > 480px)*/
 .short-heading { display: none; }
 
-/* When resolution <= 480px, hide short text and show full text*/
+/* When screen size <= 480px, hide short text and show full text*/
 @media (max-width: 480px) {
     .short-heading { display: inline-block; }
     .full-heading { display: none; }
@@ -141,7 +141,6 @@ z-index: 1;
   #carousel{
     margin-left:2.5%;
     position:relative;
-    width:100%;
     top:-20px;
   }
   
@@ -158,13 +157,15 @@ z-index: 1;
  color:black;
  font-family:'Comfortaa', sans-serif;;
  font-weight:bold;
+ max-width:400px;
+ max-height:150px;
+ border-radius:20px;
  
 }
 
 .carousel-caption h2{
   background-color:transparent;
   color:black;
-  font-size:1.5em;
   margin: 0 auto;
 }
 
@@ -183,7 +184,7 @@ h1{
   padding-bottom:0.5%;
   font-size:1.5em;
   background-color:#3e432e;
-  border-radius:20px;
+  border-radius:20px; 
   padding-left:30px;
   color:white;
   width:auto;

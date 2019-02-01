@@ -30,6 +30,9 @@ h2{
   
 .about_imgs{
     margin:1em;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
 }
 
         
