@@ -43,35 +43,7 @@ background-color:#a7d129;
     background-color:white;
     color:#3e432e;
 }
-/*
-h1{
-    border-radius:20px;
-    padding-left:30px;
-    font-size:1.5em;
-    color:white;
-    width:auto;
-    width:50%;
-   
-}
 
-h2{
-    border-radius:20px;
-    padding-left:30px;
-    font-size:1.5em;
-    width:50%;
-   
-}
-
-
-h3{
-  color:#3e432e;
-  font-size:1.5em;
-  border-radius:20px;
-  padding-left:30px; 
-
-  
-}
-*/
 
 .contact_box_elements{
     font-size:1.5em;
@@ -81,6 +53,12 @@ h3{
 
 a{color:white;
   padding:0.3em;
+}
+
+.portfolio_block{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
 }
 
 

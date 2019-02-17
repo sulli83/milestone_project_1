@@ -4,23 +4,7 @@
     font-family:"Comfortaa", sans-serif;
     font-size:1em;
 }
-/*
-h1{
-    font-size:1.5em;
-    background-color:#3e432e;
-    border-radius:20px;
-    padding-left:30px;
-    color:white;
-    width:auto;
-}
 
-h3{
-    font-size:1.5em;
-    border-radius:20px;
-    padding-left:30px;
-    background-color:#a7d129;
-}
-*/
 .wrapper_serv{
     display:flex;
     flex-direction:column;
@@ -50,11 +34,16 @@ h3{
 }
 /*new css for main section*/
 
+.image_right{
+    margin:0 auto;
+    padding-left:8em;
+}
+
 
 .serv_imgs{
-    max-width:350px;
-    max-height:350px;
-    margin-bottom:1em;
+    max-width:100%;
+    padding-bottom:1em;
+    height:auto;
 }
 
 @media (max-width:990px){
