@@ -8,8 +8,6 @@
     
 
 
-.row{
-}
 
 .main_text_port{
     font-size:1em;
@@ -21,7 +19,7 @@
 
 .img-fluid{
     margin:1em;
-    max-width:550px;
+    max-width:100%;
     height:auto;
 }
 

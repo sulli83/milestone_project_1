@@ -4,7 +4,8 @@ body {
 
 @media(max-width:300px){
   .form-box{
-  width:120%;
+  min-width:260px;
+  margin-left:0;
 }
 }
 

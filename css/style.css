@@ -182,12 +182,18 @@ z-index: 1;
 
 
 .car_image{
-  border-radius:5%;
   max-width:100%;
   height:auto;
-  display:block;
-  background-color:#616f39;
+  margin:0 auto;
+  background-color:#a7d129;
 }
+
+
+  @media(min-width:1100px){
+    .car_image{
+      padding-left:1.2em;
+    }
+  }
 
 /*end of main Carousel styling*/
 
@@ -459,8 +465,16 @@ h3{
 }
 /*------------------------------------------------------------------------------------------------*/
 @media(max-width:250px){
+ .inner-block{
+   font-size:0.75em;
+ }
+ .text_block h2{
+   font-size:1em;
+ }
+ .footer_items{
+   font-size:15px;
+ }
  
-
 }
     
   

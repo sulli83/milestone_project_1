@@ -36,8 +36,9 @@
 
 .image_right{
     margin:0 auto;
-    padding-left:8em;
+
 }
+
 
 
 .serv_imgs{
@@ -46,9 +47,14 @@
     height:auto;
 }
 
-@media (max-width:990px){
+@media(min-width:992px){
+    .image_right{
+        padding-right:8em;
+    }
     
 }
+
+
 
 
 
