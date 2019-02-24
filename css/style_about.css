@@ -14,18 +14,25 @@ margin:2em;
 .image_grid{
     max-width:100%;
     height:auto;
-    padding-left:2em;
     padding-top:2em;
+    padding-left:1em;
     
 }
 
 
- @media(min-width:800px){
+ @media(min-width:1200px){
     .image_grid{
         max-width:300px;
         height:auto;
     }
     }
+    
+@media(min-width:991px){
+    .image_grid{
+        max-width:450px;
+        height:auto;
+    }
+}
   
        
   
