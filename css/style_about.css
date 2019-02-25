@@ -27,13 +27,13 @@ margin:2em;
     }
     }
     
-@media(min-width:991px){
+@media(min-width:991px) and (max-width:1200px){
     .image_grid{
         max-width:450px;
         height:auto;
     }
 }
-  
+
        
   
   
