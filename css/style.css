@@ -1,7 +1,14 @@
 /*css for NAVBAR */
 body{
-  background-color:#FDFDC3/*feffdf*/
+  background-color:/*DFDC3*/#ffff99/*feffdf*/
   ;
+}
+
+.container{
+color:#3e432e;
+font-family:"Comfortaa";
+font-size:1em;
+margin:0 auto;
 }
 
 
@@ -51,6 +58,7 @@ top:-10%;
 z-index: 1;
 
 }
+
 
 .img-fluid 
 { max-width: 100%; height: auto; }
@@ -240,7 +248,7 @@ h3{
 #section_1{
   min-height:200px;
   margin-left:20px;
-  background-color:#FDFDC3;/*yellow*/
+  background-color:/*#FDFDC3*/#ffff99;/*yellow*/
 }
 
 .box{
@@ -249,7 +257,7 @@ h3{
   justify-content:space-around;
   margin:1.5em;
   background-color:/*#feffdf*/
-  #FDFDC3;
+  /*#FDFDC3*/#ffff99;
 }
 
 
@@ -480,7 +488,15 @@ h3{
  .footer_items{
    font-size:15px;
  }
+ .short-heading{
+   display:none;
+ }
  
+ #logo{
+   height:40px;
+   position:absolute;
+   left:-50px;
+ }
 }
     
   

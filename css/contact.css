@@ -1,6 +1,4 @@
-body {
-  background: #FDFDC3;
-}
+
 
 @media(max-width:300px){
   .form-box{
@@ -60,9 +58,8 @@ input, textarea {
 
 .button-primary{
     max-width:80px;
-    position:relative;
-    left:40%;
     align-items:center;
+    padding-right:30%;
     background-color:#a7d129;
     color:black;
 }
