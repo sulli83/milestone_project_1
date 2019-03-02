@@ -1,4 +1,4 @@
-
+/*
 
 @media(max-width:300px){
   .form-box{
@@ -28,7 +28,7 @@
   }
   
 }
-/*end of media query*/
+/*end of media query
 
 .form-box {
   width:80%;
@@ -44,7 +44,7 @@
   padding-top:40px;
   padding-bottom:40px;
 }*/
-
+/*
 h3{
   text-align: center;
   padding:0.5em;
