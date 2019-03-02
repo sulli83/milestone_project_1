@@ -7,13 +7,14 @@
 }
 }
 
-
+/*
 @media(max-width:400px){
-  
+ /* 
 .form-box{
   width:100%;
   padding:0em;
 }
+
   h3{
     font-size:17px;
   }
@@ -27,6 +28,7 @@
   }
   
 }
+/*end of media query*/
 
 .form-box {
   width:80%;
@@ -69,4 +71,3 @@ input, textarea {
     padding-top:.5em;
     padding-bottom:.5em;
 }
-
