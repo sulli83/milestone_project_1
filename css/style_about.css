@@ -1,4 +1,4 @@
-/*
+
 .container{
 color:#3e432e;
 font-family:"Comfortaa";
@@ -16,6 +16,18 @@ margin:0 auto;
     height:auto;
     padding:1em;
     
+}
+
+.first_image{
+    max-width:120%;
+    height:auto;
+    padding:1em;
+}
+
+@media(min-width:992px){
+    .first_image{
+    display:none;
+        }
 }
 
 
@@ -43,7 +55,6 @@ margin:0 auto;
         height:auto;
         padding-left:50px;
     }
-}
 }
 
 

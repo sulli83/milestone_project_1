@@ -19,16 +19,17 @@
     margin-top:3em;
 }
 
+@media (min-width:1200px){
 .projects_right{
     margin-left:5em;
 }
-
+}
 
 
 
 .img-fluid{
     margin:1em;
-    max-width:100%;
+    max-width:90%;
     height:auto;
 }
 

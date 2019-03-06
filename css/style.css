@@ -1,7 +1,6 @@
 /*css for NAVBAR */
 body{
-  background-color:/*DFDC3*/#ffff99/*feffdf*/
-  ;
+  background-color:#ffff99;
 }
 
 .container{
@@ -245,6 +244,13 @@ h3{
 
 
 /*styling of construction, maintainance, design emblems blocks */
+
+p{
+  padding-left:10%;
+  padding-right:10%;
+}
+
+
 #section_1{
   min-height:200px;
   margin-left:20px;
@@ -322,6 +328,8 @@ h3{
   background-color:#3e432e;
   font-family: 'Fjalla One', sans-serif;
   padding:20px;
+  position:relative;
+  bottom:0;
 }
 
 .footer h2{
