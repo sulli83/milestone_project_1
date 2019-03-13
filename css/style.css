@@ -8,6 +8,7 @@ color:#3e432e;
 font-family:"Comfortaa";
 font-size:1em;
 margin:0 auto;
+padding-bottom:5%;
 }
 
 
@@ -73,6 +74,9 @@ z-index: 1;
  
 }
 /*targetting burger icon*/
+
+
+
 
 
 #dropdownMenu1{
@@ -448,15 +452,7 @@ p{
   #address{
     display:none;
   }
-  /*
-  .box{
-    display:flex;
-    flex-direction:column;
-    margin-left:35%;
-    margin-right:auto;
-    background-color:grey;
-  }
-    */
+
   .inner_block{
     width:80%;
     max-width:400px;
