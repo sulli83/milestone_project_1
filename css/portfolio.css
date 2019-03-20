@@ -77,4 +77,13 @@ background-color:#a7d129;
 }
 
 
+@media(min-width:992px){
+    .port_images_sm{
+        max-height:275px;
+        min-height:275px;
+        width:auto;
+    }
+}
+
+
 
