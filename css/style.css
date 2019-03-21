@@ -1,7 +1,42 @@
 /*css for NAVBAR */
 body{
   background-color:#ffff99;
+  overflow-x:hidden;
 }
+
+@media(max-width:480px){
+  
+  body{
+    max-width:480px;
+  }
+  
+}
+
+@media(max-width:768px){
+  body{
+    max-width:768px;
+  }
+}
+
+@media(max-width:992px){
+  body{
+    max-width:992px;
+  }
+}
+
+@media(max-width:1200px){
+  body{
+    max-width:1200px;
+  }
+}
+
+@media(max-width:1500px){
+  body{
+    max-width:1500px;
+  }
+}
+
+
 
 .container{
 color:#3e432e;
@@ -14,7 +49,7 @@ padding-bottom:5%;
 
 .full-heading{
     font-size:1.75em;
-    color:#a7d129;
+    color:#88D840;
     width:200px;
     position: absolute;
     top: 0%;
@@ -26,7 +61,9 @@ padding-bottom:5%;
 
 .short-heading{
   font-size:1.75em;
-    color:#a7d129;
+    color:#88D840;
+    /*#88D840*/
+    /*a7d129 original green*/
     width:200px;
     position: absolute;
     top: 75%;
@@ -81,7 +118,7 @@ z-index: 1;
 
 #dropdownMenu1{
   background-color:transparent;
-  color:#a7d129;
+  color:#88D840;
 }
 #dropDownMenu1:hover{
   background-color:transparent;
@@ -101,7 +138,7 @@ z-index: 1;
 .dropdown-toggle{
   background-color:transparent;
   border-color:transparent;
-  color:#a7d129;
+  color:#88D840;
   font-size:50px;
 
 }
@@ -111,10 +148,14 @@ z-index: 1;
   border-color:transparent;
   }
 
-.dropdown-toggle:focus{
+.dropdown-toggle:focus,.dropdown-toggle:active{
   background-color:transparent;
   border-color:transparent;
-  }  
+  outline: none !important;
+  box-shadow: none !important;
+  } 
+  
+   
   
 
 
@@ -147,7 +188,7 @@ z-index: 1;
     position:relative;
     left:-40px;
     top:23px;
-    background-color:#a7d129;
+    background-color:#88D840;
   }
 
 
@@ -201,7 +242,7 @@ z-index: 1;
   max-width:100%;
   height:auto;
   margin:0 auto;
-  background-color:#a7d129;
+  background-color:#88D840;
 }
 
 
@@ -232,13 +273,13 @@ h2{
   border-radius:20px;
   font-size:1.5em;
   width:50%;
-  background-color:#a7d129;
+  background-color:#88D840;
 }
 
 h3{
     border-radius:20px;
     padding-left:30px;
-    background-color:#a7d129;
+    background-color:#88D840;
     padding-top:0.5%;
     padding-bottom:0.5%;
     font-size:1.5em;
@@ -275,7 +316,7 @@ p{
   padding-top:2%;
   padding-bottom:5%;
   color:#616f39;
-  background-color:#eee;
+  background-color:#ffffe6;
   min-height:280px;
   min-width:250px;
   border-radius:5%;
@@ -291,7 +332,7 @@ p{
 
 .text_block h2{
   font-size:1.5em;
-  background-color:#a7d129;
+  background-color:#88D840;
   color:black;
   padding-left:0;
   positioning:relative;
@@ -300,6 +341,14 @@ p{
   width:100%;
  
 
+}
+
+.text_block h2:hover{
+  text-decoration:none;
+}
+
+.text_block a:hover{
+  text-decoration:none;
 }
 
 
@@ -325,7 +374,7 @@ p{
   display:flex;
   justify-content:space-between;
   background-color: #efefef;
-  color:#a7d129;
+  color:#88D840;
   text-align: center;
   height:100px;
   width:105%;
@@ -347,14 +396,14 @@ p{
 }
 
 #social_tags{
-  color:#a7d129;
+  color:#88D840;
   font-size:30px;
   float:right;
   
 }
 
 #social_tags a{
-  color:#a7d129;
+  color:#88D840;
 }
 
 /*end of footer elements */
@@ -507,6 +556,5 @@ p{
 
 
 
-/*@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-/*@media (min-width:1281px) 
+/*
 

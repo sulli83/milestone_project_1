@@ -35,7 +35,7 @@
   max-width:800px;
   margin: auto;
   padding: 2em;
-  background: #ddd;
+  background: #ffffe6;
   color:#616f39;
   font-family:"Comfortaa", sans-serif;
   
@@ -61,7 +61,7 @@ input, textarea {
     max-width:80px;
     align-items:center;
     padding-right:30%;
-    background-color:#a7d129;
+    background-color:#88D840;
     color:black;
 }
 
@@ -71,10 +71,3 @@ input, textarea {
     padding-bottom:.5em;
 }
 
-@media max-width(300px){
-.footer
-  {
-    position:absolute;
-    bottom:0;
-  }
-}
