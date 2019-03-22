@@ -205,16 +205,12 @@ z-index: 1;
 /* carousel css*/
 
   #carousel{
-    margin-left:50px;
-    padding:10px;
     position:relative;
     max-width:1450px;
   }
   
   @media(max-width:1000px){
     #carousel{
-      margin-left:2.5%;
-      padding:0;
       width:100%;
       height:auto;
 
@@ -225,7 +221,7 @@ z-index: 1;
 .carousel-caption h2{
   background-color:rgba(255, 255, 255, 0.3);
   padding:0.5em;
-  min-width:40%;
+  min-width:50%;
   font-family:'Comfortaa', sans-serif;
   color:black;
   margin:0 auto;
@@ -242,7 +238,7 @@ z-index: 1;
   max-width:100%;
   height:auto;
   margin:0 auto;
-  background-color:#88D840;
+ 
 }
 
 
@@ -298,7 +294,6 @@ p{
 
 #section_1{
   min-height:200px;
-  margin-left:20px;
   background-color:/*#FDFDC3*/#ffff99;/*yellow*/
 }
 
@@ -309,6 +304,16 @@ p{
   margin:1.5em;
   background-color:/*#feffdf*/
   /*#FDFDC3*/#ffff99;
+}
+
+.container{
+  background-color:#ffffe6;
+  margin-bottom:100px;
+  padding:2em;
+}
+
+.main_body{
+  padding-bottom:5%;
 }
 
 
