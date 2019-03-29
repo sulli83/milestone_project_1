@@ -143,7 +143,11 @@ git push origin.
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+Website was also deployed to Netifly.com and at 
+```
+https://thinkoutsidelandscapes.netlify.com
 
+```
 Different values for environment variables (Heroku Config Vars)?
 Different configuration files?
 Separate git branch?
