@@ -30,15 +30,15 @@ This section is also where you would share links to any wireframes, mockups, dia
 ## HTML5
 ## CSS3-
 *Colors used!!
- - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `##ffff99` 
+ - ![#c5f015](https://placehold.it/15/ffff99/000000?text=+) `#ffff99` 
 Shade of Canary
-- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `##3e432e`
+- ![#1589F0](https://placehold.it/15/3e432e/000000?text=+) `#3e432e`
 Category
 green (dark green)
-- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#88D840`
+- ![#1589F0](https://placehold.it/15/88D840/000000?text=+) `#88D840`
 Category
 green (light green)
-- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#ffffe6`
+- ![#1589F0](https://placehold.it/15/ffffe6/000000?text=+) `#ffffe6`
 Category
 light yellow
 
