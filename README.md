@@ -29,7 +29,11 @@ This section is also where you would share links to any wireframes, mockups, dia
 * The pages using
  * HTML5
  * CSS3
- * JQuery
+ Colors used!!
+ - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
+- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
+ 
+* JQuery
  * Bootstrap
  Bootstrap grid system was used extensively throught the webiste.
 
@@ -58,8 +62,8 @@ Use of bootstrap grid can be clearly seen here.
           <!--close of text_block-->
           </div>
           <!--closing of inner block-->
-       </div>
-     ```
+    </div>
+```
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
