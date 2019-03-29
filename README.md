@@ -2,7 +2,7 @@
 
 ## Milestone Project 1 - Wenbsite for Think Outside Landscapes.
 
-
+- - -
 ## UX
 This is website designed for small landscaping company.
 
@@ -19,19 +19,22 @@ In particular, as part of this section we recommend that you provide a list of U
 
 As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
+- - - 
 ### Original Wireframes
 
+- - -
 
 ## Features
 
-The pages using
-HTML5
-CSS3
-JQuery
-Bootstrap
+* The pages using
+ * HTML5
+ * CSS3
+ * JQuery
+ * Bootstrap
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+
+- - -
 
 ## Existing Features
 
@@ -50,6 +53,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
+
+- - -
 
 ## Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -100,6 +105,8 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
+- - -
+
 ### Credits
 Content
 The text for section Y was copied from the Wikipedia article Z
@@ -108,11 +115,13 @@ The photos used in this site were obtained from ...
 Acknowledgements
 I received inspiration for this project from X
 
+- - -
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+- - -
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
