@@ -1,5 +1,6 @@
 # Project Name
-Milestone Project 1 - Wenbsite for Think Outside Landscapes.
+
+## Milestone Project 1 - Wenbsite for Think Outside Landscapes.
 
 
 ## UX
@@ -19,11 +20,10 @@ In particular, as part of this section we recommend that you provide a list of U
 As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-### Original Wireframes-###
+### Original Wireframes
 
 
 ## Features
-##
 
 The pages using
 HTML5
@@ -33,7 +33,7 @@ Bootstrap
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-##Existing Features
+## Existing Features
 
 Navbar
 
@@ -51,7 +51,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 JQuery
 The project uses JQuery to simplify DOM manipulation.
 
-##Testing
+## Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -69,7 +69,7 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-##Deployment
+## Deployment
 The page was deployed through GITHUB.
 The process involved using a CLI.
 Data files which were created initially on a Cloud9 IDE and were then uploaded onto GITHUB  which is a version control software.
@@ -100,7 +100,7 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-###Credits
+### Credits
 Content
 The text for section Y was copied from the Wikipedia article Z
 Media
