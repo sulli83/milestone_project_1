@@ -31,6 +31,34 @@ This section is also where you would share links to any wireframes, mockups, dia
  * CSS3
  * JQuery
  * Bootstrap
+ Bootstrap grid system was used extensively throught the webiste.
+
+https://getbootstrap.com/docs/4.0/layout/grid/
+
+Use of bootstrap grid can be clearly seen here.
+
+'code(
+ <div class="inner_block col-lg-3  col-xs-10">
+          <div class="image_block image_block_3">
+               <a href="/services.html">
+              <img id=image_1 class="thumb-img" src="/images/buxus_main.jpg">
+            <!--closing image block for thumbnail-->
+            </div>
+            <div class="text_block">
+                <h2>
+                Maintenance
+                </h2>
+                </a>
+            <p>
+           Maintenance division is operated and managed by highly skilled and
+           fully qualified Horticulturists.<br>
+           We pride ourself on our knowledge and
+           expertise in this area of Landscaping<br>
+           </p>
+          <!--close of text_block-->
+          </div>
+          <!--closing of inner block-->
+       </div>)'
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
