@@ -35,12 +35,15 @@ a{
     margin:1em;
     max-width:90%;
     height:auto;
+
 }
 
 .portfolio_images{
     max-width:100%;
     height:auto;
     margin:2px;
+    padding-bottom:3%;
+    padding-right:2em;
 }
 
 .btn{
