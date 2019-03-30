@@ -1,6 +1,6 @@
 # Project Name
 
-## Milestone Project 1 - Website for Think Outside Landscapes.
+## Milestone Project 1 - Think Outside Landscapes Website.
 
 - - -
 ## UX
@@ -8,27 +8,44 @@ This is website designed for small landscaping company.
 
 The primary issue with the companies existing website was its lack of responsiveness.
 
-The website has been designed to be very visually intense at the front end in particualar the landing page.
+The website has been designed to be very visually intense at the front end in particualar the title page.
 
-Such as website aims to provide an insight into the workmanship of the client quickly and in a very strong visual manner.
+Such a website aims to provide an insight into the workmanship of the client quickly and in a very strong visual manner.
 
+Recomendations are the key method for business aquisition for such a company so many of the users would be previously aware of the company.
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+These users are using the site to gain more information and a greater insight into the standard of workmanship which the company carry out.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+The other primary users of the site are people who've discovered the company throught its online presence. Primarily Instagram.
+
+The aim of the website is also to provide a very visual insight into the company quickly and accesibly.
 
 As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
+These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 - - - 
 ### Original Wireframes
+
+Need to include these
 
 - - -
 
 # Features
 
 # The pages using
+
 ## HTML5
+HTML5 is the latest version of Hypertext Markup Language, the code that describes web pages. 
+It's actually three kinds of code: HTML, which provides the structure; Cascading Style Sheets (CSS), 
+which take care of presentation; and JavaScript, which makes things happen.
+Reference-
+https://www.techradar.com/news/internet/web/html5-what-is-it-1047393
+
 ## CSS3-
+is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2.1. 
+It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions
+or animations, as well as new layouts like multi-columns, flexible box or grid layouts
+
 *Colors used!!
  - ![#c5f015](https://placehold.it/15/ffff99/000000?text=+) `#ffff99` 
 Shade of Canary
