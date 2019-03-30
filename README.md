@@ -104,6 +104,18 @@ Navbar-
 This is a consistent feature running through each page.
 A short heading and long heading are used in various screen sizes.
 ```
+.full-heading{
+    font-size:1.75em;
+    color:#88D840;
+    width:200px;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    margin-right: -60%;
+    z-index: 1;
+}
+
+
 .short-heading{
   font-size:1.75em;
     color:#88D840;
@@ -120,11 +132,33 @@ A short heading and long heading are used in various screen sizes.
 
 /* Hide short text by default (resolution > 480px)*/
 .short-heading { display: none; }
+
+/* When screen size <= 480px, hide short text and show full text*/
+@media (max-width: 480px) {
+    .short-heading { display: inline-block; }
+    .full-heading { display: none; }
+}
+  
 ```
 
-Carousel
+### Carousel
 ...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Including in index.html page using the Bootstrap framework.
+4 images which are rotated automatically or using the chevron either side of the image.
+
+###Cards
+....
+Represent various operations which company carry out.
+<a> tags created links here.F
+
+### Footer
+....
+Consistent throughout pages.
+Minimalist appearance as size of page is reduced.
+On smaller screens only the link tags to instagram, telephone and e mail remain present.
+
+
+
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
