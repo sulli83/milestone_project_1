@@ -61,9 +61,10 @@ light yellow
 
 
  
-## JQuery
 ## Bootstrap
- Bootstrap grid system was used extensively throught the webiste.
+Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
+Bootstrap 4 is the newest version of Bootstrap
+Bootstrap grid system was used extensively throught the webiste.
 - - - -
 https://getbootstrap.com/docs/4.0/layout/grid/
 - - - -
@@ -99,7 +100,27 @@ In this section, you should go over the different parts of your project, and des
 
 ## Existing Features
 
-Navbar
+Navbar-
+This is a consistent feature running through each page.
+A short heading and long heading are used in various screen sizes.
+```
+.short-heading{
+  font-size:1.75em;
+    color:#88D840;
+    /*#88D840*/
+    /*a7d129 original green*/
+    width:200px;
+    position: absolute;
+    top: 75%;
+    left: 8%;
+    margin-right: -2%;
+    z-index: 1;
+}
+
+
+/* Hide short text by default (resolution > 480px)*/
+.short-heading { display: none; }
+```
 
 Carousel
 ...
