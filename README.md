@@ -32,8 +32,100 @@ Need to include these
 
 # Features
 
-# The pages using
 
+- - -
+
+## Existing Features
+
+Navbar-
+This is a consistent feature running through each page.
+A short heading and long heading are used in various screen sizes.
+```
+.full-heading{
+    font-size:1.75em;
+    color:#88D840;
+    width:200px;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    margin-right: -60%;
+    z-index: 1;
+}
+
+
+.short-heading{
+  font-size:1.75em;
+    color:#88D840;
+    /*#88D840*/
+    /*a7d129 original green*/
+    width:200px;
+    position: absolute;
+    top: 75%;
+    left: 8%;
+    margin-right: -2%;
+    z-index: 1;
+}
+
+
+/* Hide short text by default (resolution > 480px)*/
+.short-heading { display: none; }
+
+/* When screen size <= 480px, hide short text and show full text*/
+@media (max-width: 480px) {
+    .short-heading { display: inline-block; }
+    .full-heading { display: none; }
+}
+  
+```
+
+### Carousel
+...
+Including in index.html page using the Bootstrap framework.
+4 images which are rotated automatically or using the chevron either side of the image.
+ 
+### Cards
+....
+Represent various operations which company carry out.
+tags created links here.
+```
+ 
+      <div class="inner_block col-lg-3  col-xs-10">
+          <div class="image_block image_block_2 ">
+                 <a href="/services.html">
+              <img id=image_1 class="thumb-img" src="/images/laying_slabs.jpg">
+            <!--closing image block for thumbnail-->
+            </div>
+            <div class="text_block">
+                <h2>
+                Construction
+                </h2>
+                </a>
+        <p>
+           We have a team of highly skilled tradesmen<br>
+           Our team is experienced and skilled in all aspects of landscaping<br>
+           A portfolio of previous high quality projects is available for inspection.
+          <!--close of text_block-->
+         </p>
+          </div>
+          <!--closing of inner block-->
+       </div>
+ ```
+
+### Footer
+....
+Consistent throughout pages.
+Minimalist appearance as size of page is reduced.
+On smaller screens only the link tags to instagram, telephone and e mail remain present.
+
+
+
+## Features Left to Implement
+- - - -
+Contact form needs to send e mail to company owner once filled out.
+Another feature idea
+
+## Technologies Used
+- - - -
 ## HTML5
 HTML5 is the latest version of Hypertext Markup Language, the code that describes web pages. 
 It's actually three kinds of code: HTML, which provides the structure; Cascading Style Sheets (CSS), 
@@ -94,81 +186,7 @@ Use of bootstrap grid can be clearly seen here.
     </div>
 ```
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-- - -
-
-## Existing Features
-
-Navbar-
-This is a consistent feature running through each page.
-A short heading and long heading are used in various screen sizes.
-```
-.full-heading{
-    font-size:1.75em;
-    color:#88D840;
-    width:200px;
-    position: absolute;
-    top: 0%;
-    left: 40%;
-    margin-right: -60%;
-    z-index: 1;
-}
-
-
-.short-heading{
-  font-size:1.75em;
-    color:#88D840;
-    /*#88D840*/
-    /*a7d129 original green*/
-    width:200px;
-    position: absolute;
-    top: 75%;
-    left: 8%;
-    margin-right: -2%;
-    z-index: 1;
-}
-
-
-/* Hide short text by default (resolution > 480px)*/
-.short-heading { display: none; }
-
-/* When screen size <= 480px, hide short text and show full text*/
-@media (max-width: 480px) {
-    .short-heading { display: inline-block; }
-    .full-heading { display: none; }
-}
-  
-```
-
-### Carousel
-...
-Including in index.html page using the Bootstrap framework.
-4 images which are rotated automatically or using the chevron either side of the image.
-
-###Cards
-....
-Represent various operations which company carry out.
-<a> tags created links here.F
-
-### Footer
-....
-Consistent throughout pages.
-Minimalist appearance as size of page is reduced.
-On smaller screens only the link tags to instagram, telephone and e mail remain present.
-
-
-
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-JQuery
-The project uses JQuery to simplify DOM manipulation.
 
 - - -
 
