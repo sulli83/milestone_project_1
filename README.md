@@ -79,12 +79,12 @@ A short heading and long heading are used in various screen sizes.
 ```
 
 ### Carousel
-...
+- - - -
 Including in index.html page using the Bootstrap framework.
 4 images which are rotated automatically or using the chevron either side of the image.
  
 ### Cards
-....
+- - - -
 Represent various operations which company carry out.
 tags created links here.
 ```
@@ -112,7 +112,7 @@ tags created links here.
  ```
 
 ### Footer
-....
+- - - -
 Consistent throughout pages.
 Minimalist appearance as size of page is reduced.
 On smaller screens only the link tags to instagram, telephone and e mail remain present.
