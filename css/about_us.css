@@ -22,6 +22,7 @@ margin:0 auto;
 .first_image{
     height:auto;
     margin:0 auto;
+    padding-top:0.5em;
 }
 
 .about_img_block{
@@ -37,13 +38,6 @@ margin:0 auto;
         margin-right:10%;
         
     }
-
-@media(min-width:768px)
-and (max-width:991px){
- .first_image{
- 
- } 
- .about_img_block{}
 }
 
 @media(min-width:992px){
@@ -51,6 +45,8 @@ and (max-width:991px){
     display:none;
         }
 }
+
+
 
 
  @media(min-width:1200px){
@@ -69,11 +65,7 @@ and (max-width:991px){
     }
 }
 
-@media(max-width:767px){
-    {
-        .image
-    }
-}
+   
 @media(min-width:768px) and (max-width:991px){
     .image_grid{
         max-width:300px;
