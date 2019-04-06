@@ -29,15 +29,7 @@ margin:0 auto;
     margin:0 auto;
 }
 @media(max-width:768px){
-    .image_grid{
-        margin-left:5%;
-        margin-right:10%;
-    }
-    .first_image{
-        margin-left:5%;
-        margin-right:10%;
-        
-    }
+ 
 }
 
 @media(min-width:992px){
