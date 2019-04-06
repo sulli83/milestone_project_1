@@ -1,6 +1,6 @@
 /*css for NAVBAR */
 body{
-  bdden;ackground-color:#ffff99;
+  background-color:#ffff99;
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -229,7 +229,7 @@ background-color:transparent;
     background-color:#3e432e;
     font-family: 'Fjalla One', sans-serif;
     /*padding:20px;*/
-    width:105%;
+    width:100%;
     margin-left:auto;
     margin-right:auto;
     border-width:20px;
