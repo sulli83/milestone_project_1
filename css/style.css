@@ -12,12 +12,15 @@ body{
   
   body{
     max-width:480px;
-    
-
   }
   
   #carousel{
     max-width:480px;
+    width:100%;
+  }
+  
+  .navbar{
+    width:100%;
   }
   
 }
@@ -30,6 +33,11 @@ body{
    
    #carousel{
      max-width:768px;
+     width:100%;
+   }
+   
+   .navbar{
+     width:100%;
    }
 }
 
