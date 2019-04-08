@@ -26,7 +26,7 @@ These files should themselves either be included in the project itself (in an se
 - - - 
 ### Original Mockups
 
-![Original Mockups from beginning of project]("/mockups/about_page.png")
+![Original Mockups from beginning of project]("mockups/about_page.png")
 
 - - -
 
