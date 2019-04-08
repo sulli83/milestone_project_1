@@ -55,6 +55,14 @@
     
 }
 
+@media(max-width:767px){
+    .serv_imgs{
+        max-width:100%;
+        height:auto;
+        padding-left:10%;
+        padding-right:10%;}
+}
+    
 
 
 

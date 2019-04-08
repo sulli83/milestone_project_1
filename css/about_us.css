@@ -28,9 +28,11 @@ margin:0 auto;
 .about_img_block{
     margin:0 auto;
 }
-@media(max-width:768px){
- 
+
+.inner_content{
+    width:100%;
 }
+
 
 @media(min-width:992px){
     .first_image{
@@ -48,30 +50,35 @@ margin:0 auto;
     }
     }
     
-@media(min-width:992px) and (max-width:1200px){
+@media(min-width:992px) and (max-width:1199px){
     .image_grid{
-        max-width:400px;
+        max-width:350px;
         height:auto;
         position:relative;
         left:10%;
     }
+    
+    .about_us_main{
+        margin-right:3%;
+    }
 }
 
    
-@media(min-width:768px) and (max-width:991px){
-    .image_grid{
-        max-width:300px;
-        height:auto;
-        padding-left:10%;
-        padding-right:10%;
 
-    }
 @media(max-width:991px){
     .image_grid{
         max-width:100%;
         height:auto;
-        padding-left:50px;
-        margin:0 auto;
+        padding-left:10%;
+        padding-right:10%;
+        
+    }
+    
+    .first_image{
+        position:relative;
+        bottom:15px;
+        padding-left:10%;
+        padding-right:10%;
     }
 }
 

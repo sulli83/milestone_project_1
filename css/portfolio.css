@@ -31,12 +31,6 @@ a{
 
 
 
-.img-fluid{
-    margin:1em;
-    max-width:90%;
-    height:auto;
-
-}
 
 .portfolio_images{
     max-width:100%;
@@ -80,21 +74,39 @@ background-color:#88D840;
 }
 
 
+
+
 @media(min-width:992px){
+    
+    .image_block{
+    display:flex;
+    height:200px;
+    justify-content:space-around;
+
+}
+
     .port_images_sm{
-        max-height:250px;
-        min-height:250px;
-        min-width:250px;
+    width:200px;
+    height:200px;
+    margin:auto;
     }
     
     .port_images_sm_glas{
-        max-height:250px;
-        min-height:250px;
-        min-width:250px;
+     width:200px;
+    height:200px;
+    margin:auto;
+        
     }
     
     .portfolio_block{
         padding-left:10%;
+    }
+}
+
+@media(min-width:1100px){
+    image_block{
+        height:225px;
+    
     }
 }
 

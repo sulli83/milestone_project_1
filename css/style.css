@@ -283,6 +283,10 @@ background-color:transparent;
   font-size:25px;
 }
 
+@media(max-width:992px){
+  .carousel-caption h2{
+    font-size:20px}}
+
 .glyphicon-chevron{
   color:black;
 }
@@ -508,7 +512,7 @@ p{
 }
 
  .glyphicon-menu-hamburger{
-    font-size:30px;
+    font-size:40px;
   }
 
 }
