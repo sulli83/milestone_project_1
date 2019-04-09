@@ -26,8 +26,12 @@ These files should themselves either be included in the project itself (in an se
 - - - 
 ### Original Mockups
 
-![Original Mockups from beginning of project](https://github.com/sulli83/milestone_project_1/blob/master/mockups/about_page.png)
-
+![Original Mockups-Index Page](https://github.com/sulli83/milestone_project_1/blob/master/mockups/landing_page.png)
+![Original Mockups-About us-Page](https://github.com/sulli83/milestone_project_1/blob/master/mockups/about_page.png)
+![Original Mockups-Services-Page](https://github.com/sulli83/milestone_project_1/blob/master/mockups/services_page.png)
+![Original Mockups-Portfoli](https://github.com/sulli83/milestone_project_1/blob/master/mockups/portfolio_page.png)
+![Original Mockups from beginning of project](https://github.com/sulli83/milestone_project_1/blob/master/mockups/contact_page.png)
+[mockups/contact_page.pdf](https://github.com/sulli83/milestone_project_1/blob/master/mockups/contact_page.png)
 
 - - -
 
