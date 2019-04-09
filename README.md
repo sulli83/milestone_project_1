@@ -26,7 +26,7 @@ These files should themselves either be included in the project itself (in an se
 - - - 
 ### Original Mockups
 
-![Original Mockups from beginning of project](https://github.com/sulli83/milestone_project_1/master/mockups/about_page.png)
+![Original Mockups from beginning of project](https://github.com/sulli83/milestone_project_1/blob/master/mockups/about_page.png)
 
 
 - - -
