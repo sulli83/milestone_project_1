@@ -45,10 +45,15 @@ To clearly highlight links to Instagram and to provide contact details for furth
 - - - 
 ### Original Mockups
 
+- - - 
 [mockups/landing_page.png](https://github.com/sulli83/milestone_project_1/blob/master/mockups/landing_page.png)
+- - - -
 [mockups/about_page.png](https://github.com/sulli83/milestone_project_1/blob/master/mockups/about_page.png)
+- - - - 
 [mockups/services_page.png](https://github.com/sulli83/milestone_project_1/blob/master/mockups/services_page.png)
+- - - -
 [mockups/portfolio_page.png](https://github.com/sulli83/milestone_project_1/blob/master/mockups/portfolio_page.png)
+- - - -
 [mockups/contact_page.pdf](https://github.com/sulli83/milestone_project_1/blob/master/mockups/contact_page.png)
 
 - - -
