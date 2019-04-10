@@ -20,9 +20,27 @@ The other primary users of the site are people who've discovered the company thr
 
 The aim of the website is also to provide a very visual insight into the company quickly and accesibly.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### User Stories
+
+### User 1 -
+I am a user who has actually previously had a recomendation for the company.
+I have encounter the services first hand.
+The site provides a host of images which can be viewed and further highlight the quality of the work which the company is
+capable of completing.
+Link to Instagram account shows a more frequently updated portfolio of projects.
+
+### User 2 - 
+Directed to site from Instagram.
+Primary goal of app for this user is to provide clear and accessible links to contact details.
+Also to provide background information for the company and the work it carries out.
+
+### User 3 -
+I am a user who has been directed to the site through a search for landscaping.
+Aims for this user are to provided a visually strong website which highlight the standard of work which
+the company routinely completes.
+To clearly highlight links to Instagram and to provide contact details for further enquiries.
+
+
 - - - 
 ### Original Mockups
 
@@ -201,6 +219,12 @@ In this section, you need to convince the assessor that you have conducted enoug
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+HTML validator:
+https://validator.w3.or
+
+CSS validator
+https://jigsaw.w3.org
 
 Contact form:
 Go to the "Contact Us" page
