@@ -3,38 +3,39 @@
 ## Milestone Project 1 - Think Outside Landscapes Website.
 
 - - -
-## UX
+## Overview
+
 This is website designed for small landscaping company.
 
 The primary issue with the companies existing website was its lack of responsiveness.
+
+## UX
 
 The website has been designed to be very visually intense at the front end in particualar the title page.
 
 Such a website aims to provide an insight into the workmanship of the client quickly and in a very strong visual manner.
 
-Recomendations are the key method for business aquisition for such a company so many of the users would be previously aware of the company.
-
-These users are using the site to gain more information and a greater insight into the standard of workmanship which the company carry out.
-
-The other primary users of the site are people who've discovered the company throught its online presence. Primarily Instagram.
-
 The aim of the website is also to provide a very visual insight into the company quickly and accesibly.
 
-### User Stories
+# User Stories
 
 ### User 1 -
+- - - -
 I am a user who has actually previously had a recomendation for the company.
 I have encounter the services first hand.
 The site provides a host of images which can be viewed and further highlight the quality of the work which the company is
 capable of completing.
+Recomendations are the key method for business aquisition for such a company so many of the users would be previously aware of the company.
 Link to Instagram account shows a more frequently updated portfolio of projects.
 
 ### User 2 - 
+- - - - 
 Directed to site from Instagram.
 Primary goal of app for this user is to provide clear and accessible links to contact details.
 Also to provide background information for the company and the work it carries out.
 
 ### User 3 -
+- - - - 
 I am a user who has been directed to the site through a search for landscaping.
 Aims for this user are to provided a visually strong website which highlight the standard of work which
 the company routinely completes.
@@ -44,11 +45,10 @@ To clearly highlight links to Instagram and to provide contact details for furth
 - - - 
 ### Original Mockups
 
-![Original Mockups-Index Page](https://github.com/sulli83/milestone_project_1/blob/master/mockups/landing_page.png)
-![Original Mockups-About us-Page](https://github.com/sulli83/milestone_project_1/blob/master/mockups/about_page.png)
-![Original Mockups-Services-Page](https://github.com/sulli83/milestone_project_1/blob/master/mockups/services_page.png)
-![Original Mockups-Portfoli](https://github.com/sulli83/milestone_project_1/blob/master/mockups/portfolio_page.png)
-![Original Mockups from beginning of project](https://github.com/sulli83/milestone_project_1/blob/master/mockups/contact_page.png)
+[mockups/landing_page.png](https://github.com/sulli83/milestone_project_1/blob/master/mockups/landing_page.png)
+[mockups/about_page.png](https://github.com/sulli83/milestone_project_1/blob/master/mockups/about_page.png)
+[mockups/services_page.png](https://github.com/sulli83/milestone_project_1/blob/master/mockups/services_page.png)
+[mockups/portfolio_page.png](https://github.com/sulli83/milestone_project_1/blob/master/mockups/portfolio_page.png)
 [mockups/contact_page.pdf](https://github.com/sulli83/milestone_project_1/blob/master/mockups/contact_page.png)
 
 - - -
