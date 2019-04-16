@@ -9,6 +9,10 @@ This is website designed for small landscaping company.
 
 The primary issue with the companies existing website was its lack of responsiveness.
 
+The website has been designed to be very visually intense at the front end in particualar the title page.  Which includes a 
+4 image Carousel.
+
+
 ## UX
 
 The website has been designed to be very visually intense at the front end in particualar the title page.
@@ -22,9 +26,9 @@ The aim of the website is also to provide a very visual insight into the company
 ### User 1 -
 - - - -
 I am a user who has actually previously had a recomendation for the company.
-I have encounter the services first hand.
+I have previously encountered  the services first hand.
 The site provides a host of images which can be viewed and further highlight the quality of the work which the company is
-capable of completing.
+capable of completing, increases knowledf
 Recomendations are the key method for business aquisition for such a company so many of the users would be previously aware of the company.
 Link to Instagram account shows a more frequently updated portfolio of projects.
 
@@ -108,36 +112,10 @@ A short heading and long heading are used in various screen sizes.
 
 ### Carousel
 - - - -
-Including in index.html page using the Bootstrap framework.
+Included in index.html page using the Bootstrap framework.
 4 images which are rotated automatically or using the chevron either side of the image.
  
-### Cards
 - - - -
-Represent various operations which company carry out.
-tags created links here.
-```
- 
-      <div class="inner_block col-lg-3  col-xs-10">
-          <div class="image_block image_block_2 ">
-                 <a href="/services.html">
-              <img id=image_1 class="thumb-img" src="/images/laying_slabs.jpg">
-            <!--closing image block for thumbnail-->
-            </div>
-            <div class="text_block">
-                <h2>
-                Construction
-                </h2>
-                </a>
-        <p>
-           We have a team of highly skilled tradesmen<br>
-           Our team is experienced and skilled in all aspects of landscaping<br>
-           A portfolio of previous high quality projects is available for inspection.
-          <!--close of text_block-->
-         </p>
-          </div>
-          <!--closing of inner block-->
-       </div>
- ```
 
 ### Footer
 - - - -
@@ -149,8 +127,8 @@ On smaller screens only the link tags to instagram, telephone and e mail remain 
 
 ## Features Left to Implement
 - - - -
-Contact form needs to send e mail to company owner once filled out.
-Another feature idea
+Contact form needs to send e-mail to company once filled out.
+
 
 ## Technologies Used
 - - - -
@@ -188,33 +166,10 @@ Bootstrap grid system was used extensively throught the webiste.
 - - - -
 https://getbootstrap.com/docs/4.0/layout/grid/
 - - - -
-Use of bootstrap grid can be clearly seen here.
-
-```
- <div class="inner_block col-lg-3  col-xs-10">
-          <div class="image_block image_block_3">
-               <a href="/services.html">
-              <img id=image_1 class="thumb-img" src="/images/buxus_main.jpg">
-            <!--closing image block for thumbnail-->
-            </div>
-            <div class="text_block">
-                <h2>
-                Maintenance
-                </h2>
-                </a>
-            <p>
-           Maintenance division is operated and managed by highly skilled and
-           fully qualified Horticulturists.<br>
-           We pride ourself on our knowledge and
-           expertise in this area of Landscaping<br>
-           </p>
-          <!--close of text_block-->
-          </div>
-          <!--closing of inner block-->
-    </div>
-```
-
-
+##C9
+Cloud 9 IDE(Integrated Development Environment) was used to develop this app. This open source software allows
+users to easily write, run and debug code with just a browser.
+It is a cloud based service which promotes and allows serverless development of apps.
 
 - - -
 
@@ -231,12 +186,7 @@ https://validator.w3.or
 CSS validator
 https://jigsaw.w3.org
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
@@ -271,20 +221,21 @@ Website was also deployed to Netifly.com and at
 - - - -
 https://thinkoutsidelandscapes.netlify.com
 - - - -
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+
+App is also published via Github pages at the address.
+- - - -  -
+
+
+ - - - - -
 
 - - -
 
 ### Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+
+Code for the Carousel was taken from Bootstrap.com website.
+
+
+Thanks to Daniel Collins (Think Outside company director) for providing the most of original text content,images and logo.
 
 - - -
 
@@ -295,6 +246,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - - -
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Thanks to my Code Institute mentors and also the community of Slack for the help provided
+when i was was struggling.
