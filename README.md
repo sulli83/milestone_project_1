@@ -9,8 +9,7 @@ This is website designed for small landscaping company.
 
 The primary issue with the companies existing website was its lack of responsiveness.
 
-The website has been designed to be very visually intense at the front end in particualar the title page.  Which includes a 
-4 image Carousel.
+
 
 
 ## UX
@@ -49,15 +48,23 @@ To clearly highlight links to Instagram and to provide contact details for furth
 - - - 
 ### Original Mockups
 
+These were part of the initial design process.
+These made using Balsamiq.
+
+Initial main page mockup design.
 - - - 
 [mockups/landing_page.png](https://github.com/sulli83/milestone_project_1/blob/master/mockups/landing_page.png)
 - - - -
+Initial about us page mockup design.
 [mockups/about_page.png](https://github.com/sulli83/milestone_project_1/blob/master/mockups/about_page.png)
 - - - - 
+Initial service page mockup design.
 [mockups/services_page.png](https://github.com/sulli83/milestone_project_1/blob/master/mockups/services_page.png)
 - - - -
+Initial portfolio page mockup design.
 [mockups/portfolio_page.png](https://github.com/sulli83/milestone_project_1/blob/master/mockups/portfolio_page.png)
 - - - -
+Initial contact us page mockup design.
 [mockups/contact_page.pdf](https://github.com/sulli83/milestone_project_1/blob/master/mockups/contact_page.png)
 
 - - -
@@ -69,46 +76,10 @@ To clearly highlight links to Instagram and to provide contact details for furth
 
 ## Existing Features
 
-Navbar-
+## Navbar-
 This is a consistent feature running through each page.
 A short heading and long heading are used in various screen sizes.
-```
-.full-heading{
-    font-size:1.75em;
-    color:#88D840;
-    width:200px;
-    position: absolute;
-    top: 0%;
-    left: 40%;
-    margin-right: -60%;
-    z-index: 1;
-}
 
-
-.short-heading{
-  font-size:1.75em;
-    color:#88D840;
-    /*#88D840*/
-    /*a7d129 original green*/
-    width:200px;
-    position: absolute;
-    top: 75%;
-    left: 8%;
-    margin-right: -2%;
-    z-index: 1;
-}
-
-
-/* Hide short text by default (resolution > 480px)*/
-.short-heading { display: none; }
-
-/* When screen size <= 480px, hide short text and show full text*/
-@media (max-width: 480px) {
-    .short-heading { display: inline-block; }
-    .full-heading { display: none; }
-}
-  
-```
 
 ### Carousel
 - - - -
@@ -132,71 +103,68 @@ Contact form needs to send e-mail to company once filled out.
 
 ## Technologies Used
 - - - -
-## HTML5
+### HTML5
 HTML5 is the latest version of Hypertext Markup Language, the code that describes web pages. 
 It's actually three kinds of code: HTML, which provides the structure; Cascading Style Sheets (CSS), 
 which take care of presentation; and JavaScript, which makes things happen.
 Reference-
 https://www.techradar.com/news/internet/web/html5-what-is-it-1047393
 
-## CSS3-
+### CSS3-
 is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2.1. 
 It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions
 or animations, as well as new layouts like multi-columns, flexible box or grid layouts
 
-*Colors used!!
- - ![#c5f015](https://placehold.it/15/ffff99/000000?text=+) `#ffff99` 
-Shade of Canary
-- ![#1589F0](https://placehold.it/15/3e432e/000000?text=+) `#3e432e`
-Category
-green (dark green)
-- ![#1589F0](https://placehold.it/15/88D840/000000?text=+) `#88D840`
-Category
-green (light green)
-- ![#1589F0](https://placehold.it/15/ffffe6/000000?text=+) `#ffffe6`
-Category
-light yellow
-
 
  
-## Bootstrap
+### Bootstrap
 Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
 Bootstrap 4 is the newest version of Bootstrap
-Bootstrap grid system was used extensively throught the webiste.
+Bootstrap grid system was used extensively throughout the website.
 - - - -
 https://getbootstrap.com/docs/4.0/layout/grid/
 - - - -
-##C9
-Cloud 9 IDE(Integrated Development Environment) was used to develop this app. This open source software allows
-users to easily write, run and debug code with just a browser.
-It is a cloud based service which promotes and allows serverless development of apps.
+
+### Font Awesome
+
+### Google Fonts
 
 - - -
 
 ## Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Code was written and tested in Cloud9 IDE.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+### Browser tested following features-
+Testing screen sizing.
+Testing All links
+Testing Nagivagation between pages
+Tested responsiveness off all elements.
+
+### All testing in the following browsers.
+* Chrome
+* Opera
+* Mozilla Firefox
+
 
 HTML validator:
+HTML was tested with a mark up validator service.
 https://validator.w3.or
 
-CSS validator
+CSS validator:
+CSS was tested with a CSS validator service.
 https://jigsaw.w3.org
 
 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+## Development.
 
-## Deployment
-The page was deployed through GITHUB.
-The process involved using a CLI.
-Data files which were created initially on a Cloud9 IDE and were then uploaded onto GITHUB  which is a version control software.
-The command which were primarily used this were
+This webpages was developed using the Cloud9  Interactive Development Environment.
+It was deployed to GITHUB throughout the development process, stage and committing changes 
+as they happened.
+The process involved using a CLI using the terminal in the IDE.
+The commands which were primarily used through this process for this were
 
 ```
 git init
@@ -211,40 +179,70 @@ followed by
 git commit -m 'message to describe commit inserted here'
 ```
 followed by
+```
 the entering of the users username + password
-then finally
-git push origin.
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+```
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-Website was also deployed to Netifly.com and at 
+then finally
+```
+git push origin
+```
+
+## Deployment.
+
+The page was deployed using both Netifly.com and github pages.
+
+## Deployed site can be viewed by simply clicking either of the links below.
+
+- - - - 
+https://sulli83.github.io/milestone_project_1/
 - - - -
 https://thinkoutsidelandscapes.netlify.com
 - - - -
 
-App is also published via Github pages at the address.
-- - - -  -
-
-
- - - - - -
-
-- - -
 
 ### Credits
 
-Code for the Carousel was taken from Bootstrap.com website.
+Code for the Carousel was taken from Bootstrap.com website and adjusted to suit the page.
+
+```
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="..." alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+```
 
 
 Thanks to Daniel Collins (Think Outside company director) for providing the most of original text content,images and logo.
 
 - - -
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-- - -
 ## Acknowledgments
 
 Thanks to my Code Institute mentors and also the community of Slack for the help provided
 when i was was struggling.
+
+- - - 
+
+## Disclaimer
+
+This content to be used for educational purposes only.
