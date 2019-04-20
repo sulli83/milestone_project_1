@@ -101,45 +101,46 @@ On smaller screens only the link tags to instagram, telephone and e mail remain 
 Contact form needs to send e-mail to company once filled out.
 
 
-## Technologies Used
+# Technologies Used
 - - - -
-### HTML5
+* ### HTML5
 HTML5 is the latest version of Hypertext Markup Language, the code that describes web pages. 
 It's actually three kinds of code: HTML, which provides the structure; Cascading Style Sheets (CSS), 
 which take care of presentation; and JavaScript, which makes things happen.
-Reference-
+Reference for desciption-
 https://www.techradar.com/news/internet/web/html5-what-is-it-1047393
 
-### CSS3-
+* ### CSS3
 is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2.1. 
 It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions
 or animations, as well as new layouts like multi-columns, flexible box or grid layouts
 
 
  
-### Bootstrap
+* ### Bootstrap
 Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
 Bootstrap 4 is the newest version of Bootstrap
 Bootstrap grid system was used extensively throughout the website.
+
 - - - -
 https://getbootstrap.com/docs/4.0/layout/grid/
 - - - -
 
-### Font Awesome
+* ### Font Awesome
 
-### Google Fonts
+* ### Google Fonts
 
-- - -
+- - - - 
 
 ## Testing
 
 Code was written and tested in Cloud9 IDE.
 
 ### Browser tested following features-
-Testing screen sizing.
-Testing All links
-Testing Nagivagation between pages
-Tested responsiveness off all elements.
+* Testing screen sizing.
+* Testing All links
+* Testing Nagivagation between pages
+* Tested responsiveness off all elements.
 
 ### All testing in the following browsers.
 * Chrome
