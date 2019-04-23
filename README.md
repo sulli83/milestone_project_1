@@ -26,7 +26,7 @@ The aim of the website is also to provide a very visual insight into the company
 - - - -
 I am a user who has actually previously had a recomendation for the company.
 I have previously encountered  the services first hand.
-The site provides a host of images which can be viewed and further highlight the quality of the work which the company is
+The site will provide a host of images which can be viewed and further highlight the quality of the work which the company is
 capable of completing, increases knowledf
 Recomendations are the key method for business aquisition for such a company so many of the users would be previously aware of the company.
 Link to Instagram account shows a more frequently updated portfolio of projects.
@@ -104,15 +104,13 @@ Contact form needs to send e-mail to company once filled out.
 # Technologies Used
 - - - -
 * ### HTML5
-HTML5 is the latest version of Hypertext Markup Language, the code that describes web pages. 
-It's actually three kinds of code: HTML, which provides the structure; Cascading Style Sheets (CSS), 
-which take care of presentation; and JavaScript, which makes things happen.
-Reference for desciption-
-https://www.techradar.com/news/internet/web/html5-what-is-it-1047393
+HTML5 is the latest version of Hypertext Markup Language, the code that describes the contents and 
+apperance of web pages.
+
 
 * ### CSS3
-is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2.1. 
-It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions
+is the latest version of the Cascading Style Sheets language. 
+It brings a lot of long-awaited features like rounded corners, shadows, gradients, transitions
 or animations, as well as new layouts like multi-columns, flexible box or grid layouts
 
 
@@ -127,8 +125,11 @@ https://getbootstrap.com/docs/4.0/layout/grid/
 - - - -
 
 * ### Font Awesome
+Font awesome is a font and icon toolkit based on CSS and LESS.
 
 * ### Google Fonts
+This is a library of over 600 font families which are made available to
+developers.
 
 - - - - 
 
@@ -140,7 +141,7 @@ Code was written and tested in Cloud9 IDE.
 * Testing screen sizing.
 * Testing All links
 * Testing Nagivagation between pages
-* Tested responsiveness off all elements.
+* Tested responsiveness of all elements.
 
 ### All testing in the following browsers.
 * Chrome
@@ -150,7 +151,7 @@ Code was written and tested in Cloud9 IDE.
 
 HTML validator:
 HTML was tested with a mark up validator service.
-https://validator.w3.or
+https://validator.w3.org
 
 CSS validator:
 CSS was tested with a CSS validator service.
@@ -159,12 +160,12 @@ https://jigsaw.w3.org
 
 
 
-## Development.
+## Deployment.
 
-This webpages was developed using the Cloud9  Interactive Development Environment.
+This website was developed using the Cloud9  Interactive Development Environment.
 It was deployed to GITHUB throughout the development process, stage and committing changes 
 as they happened.
-The process involved using a CLI using the terminal in the IDE.
+The process involved using a Command Line Interface using the terminal in the IDE.
 The commands which were primarily used through this process for this were
 
 ```
@@ -188,8 +189,6 @@ then finally
 ```
 git push origin
 ```
-
-## Deployment.
 
 The page was deployed using both Netifly.com and github pages.
 
