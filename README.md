@@ -76,9 +76,9 @@ Initial contact us page mockup design.
 
 ## Existing Features
 
-## Navbar-
+### Navbar-
 This is a consistent feature running through each page.
-A short heading and long heading are used in various screen sizes.
+A short heading and long heading are used in various screen sizes, to help with responsiveness of element.
 
 
 ### Carousel
@@ -101,7 +101,7 @@ On smaller screens only the link tags to instagram, telephone and e mail remain 
 Contact form needs to send e-mail to company once filled out.
 
 
-# Technologies Used
+## Technologies Used
 - - - -
 * ### HTML5
 HTML5 is the latest version of Hypertext Markup Language, the code that describes the contents and 
@@ -139,8 +139,8 @@ Code was written and tested in Cloud9 IDE.
 
 ### Browser tested following features-
 * Testing screen sizing.
-* Testing All links
-* Testing Nagivagation between pages
+* Testing all links
+* Testing nagivagation between pages
 * Tested responsiveness of all elements.
 
 ### All testing in the following browsers.
@@ -149,13 +149,13 @@ Code was written and tested in Cloud9 IDE.
 * Mozilla Firefox
 
 
-HTML validator:
+### HTML validator:
 HTML was tested with a mark up validator service.
 https://validator.w3.org
 
-CSS validator:
+### CSS validator:
 CSS was tested with a CSS validator service.
-https://jigsaw.w3.org
+https://jigsaw.w3.org/css-validator/
 
 
 
@@ -163,8 +163,8 @@ https://jigsaw.w3.org
 ## Deployment.
 
 This website was developed using the Cloud9  Interactive Development Environment.
-It was deployed to GITHUB throughout the development process, stage and committing changes 
-as they happened.
+It was deployed to GITHUB throughout the development process, changes were staged and committed 
+as throughout the process.
 The process involved using a Command Line Interface using the terminal in the IDE.
 The commands which were primarily used through this process for this were
 
@@ -201,9 +201,10 @@ https://thinkoutsidelandscapes.netlify.com
 - - - -
 
 
-### Credits
+## Credits
 
 Code for the Carousel was taken from Bootstrap.com website and adjusted to suit the page.
+Here is a section of the code which was used.
 
 ```
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -239,7 +240,7 @@ Thanks to Daniel Collins (Think Outside company director) for providing the most
 ## Acknowledgments
 
 Thanks to my Code Institute mentors and also the community of Slack for the help provided
-when i was was struggling.
+at points when i was struggling throughout.
 
 - - - 
 
