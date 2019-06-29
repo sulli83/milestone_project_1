@@ -9,25 +9,26 @@ This is website designed for small landscaping company.
 
 The primary issue with the companies existing website was its lack of responsiveness.
 
+Existing website was also dated and project included were not recent enough.
+
 
 
 
 ## UX
 
-The website has been designed to be very visually intense at the front end in particualar the title page.
+The website has been designed to be very visually intense at the front end in particularly the title page.
 
 Such a website aims to provide an insight into the workmanship of the client quickly and in a very strong visual manner.
 
-The aim of the website is also to provide a very visual insight into the company quickly and accesibly.
 
 # User Stories
 
 ### User 1 -
 - - - -
-I am a user who has actually previously had a recomendation for the company.
+I am a user who has previously had a recomendation for the company.
 I have previously encountered  the services first hand.
 The site will provide a host of images which can be viewed and further highlight the quality of the work which the company is
-capable of completing, increases knowledf
+capable of completing.
 Recomendations are the key method for business aquisition for such a company so many of the users would be previously aware of the company.
 Link to Instagram account shows a more frequently updated portfolio of projects.
 
@@ -36,10 +37,11 @@ Link to Instagram account shows a more frequently updated portfolio of projects.
 Directed to site from Instagram.
 Primary goal of app for this user is to provide clear and accessible links to contact details.
 Also to provide background information for the company and the work it carries out.
+Site clearly indicates the variety of work which company is capable of.
 
 ### User 3 -
 - - - - 
-I am a user who has been directed to the site through a search for landscaping.
+I am a user who has been directed to the site through a search engine.
 Aims for this user are to provided a visually strong website which highlight the standard of work which
 the company routinely completes.
 To clearly highlight links to Instagram and to provide contact details for further enquiries.
@@ -140,7 +142,7 @@ Code was written and tested in Cloud9 IDE.
 ### Browser tested following features-
 * Testing screen sizing.
 * Testing all links
-* Testing nagivagation between pages
+* Testing navigation between pages
 * Tested responsiveness of all elements.
 
 ### All testing in the following browsers.
@@ -163,8 +165,7 @@ https://jigsaw.w3.org/css-validator/
 ## Deployment.
 
 This website was developed using the Cloud9  Interactive Development Environment.
-It was deployed to GITHUB throughout the development process, changes were staged and committed 
-as throughout the process.
+It was deployed to GITHUB throughout the development process, changes were staged and committed  throughout the process.
 The process involved using a Command Line Interface using the terminal in the IDE.
 The commands which were primarily used through this process for this were
 

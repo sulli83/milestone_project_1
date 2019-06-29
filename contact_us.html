@@ -63,16 +63,18 @@ crossorigin="anonymous">
        <div class="contact_box_elements"><b>Telephone: </b> (086) 345 1763</div>
        <div class="contact_box_elements"><b>Email: </b> hello@thinkoutside.ie</div>
        <div class="contact_box_elements"><b>Alternatively leave a message and our team can get back to you.</b></div>
-      
+      <form>
       <label for="name">Name</label>
-      <input id="name" type="text" name="Name" placeholder="Type your name here">
+      <input id="name" type="text" name="Name" placeholder="Type your name here" required>
     
       <label for="email">Email</label>
-      <input id="email" type="email" name="Email" placeholder="Enter Email address.">
+      <input id="email" type="email" name="Email" placeholder="Enter Email address" required>
     
       <label for="message">Message</label>
-      <textarea id="message" name="Message" class="message_box" placeholder="Enter message"></textarea>
+      <textarea id="message" name="Message" class="message_box" placeholder="Enter message" required></textarea>
+    
     <input class="button-primary" type="submit" value="Submit" />
+    </form>
   
 </div>
 </section> 
